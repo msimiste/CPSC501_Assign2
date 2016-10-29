@@ -1,3 +1,4 @@
+package introspection;
 /*==========================================================================
 File: ObjectInspector.java
 Purpose:Demo Object inspector for the Asst2TestDriver
@@ -22,15 +23,12 @@ import java.lang.reflect.*;
 
 public class ObjectInspector
 {
-	private int count = 0;
     public ObjectInspector() { }
 
     //-----------------------------------------------------------
     public void inspect(Object obj, boolean recursive)
     {
-	//Vector objectsToInspect = new Vector();
-	//
-	HashMap<Integer,Field> objectsToInspect = new HashMap<Integer,Field>();
+	Vector objectsToInspect = new Vector();
 	Class ObjClass = obj.getClass();
 
 	System.out.println("inside inspector: " + obj + " (recursive = "+recursive+")");
@@ -43,19 +41,17 @@ public class ObjectInspector
 	   
     }
     //-----------------------------------------------------------
-   // private void inspectFieldClasses(Object obj,Class ObjClass,
-	//			     Vector<Field> objectsToInspect,boolean recursive)
-    private void inspectFieldClasses(Object obj, Class OBjClass, HashMap<Integer,Field> objectsToInspect, boolean recursive)
+    private void inspectFieldClasses(Object obj,Class ObjClass,
+				     Vector objectsToInspect,boolean recursive)
     {
 	
 	if(objectsToInspect.size() > 0 )
 	    System.out.println("---- Inspecting Field Classes ----");
 	
-	Collection<Field> e =  objectsToInspect.values();
-	
-	while( e.iterator().hasNext())
+	Enumeration e = objectsToInspect.elements();
+	while(e.hasMoreElements())
 	    {
-		Field f = e.iterator().next();
+		Field f = (Field) e.nextElement();
 		System.out.println("Inspecting Field: " + f.getName() );
 		
 		try
@@ -68,8 +64,8 @@ public class ObjectInspector
 	    }
     }
     //-----------------------------------------------------------
-   // private void inspectFields(Object obj,Class ObjClass,Vector<Field> objectsToInspect)
-    private void inspectFields(Object obj, Class ObjClass, HashMap<Integer,Field> objectsToInspect)
+    private void inspectFields(Object obj,Class ObjClass,Vector objectsToInspect)
+  
     {
 	
 	if(ObjClass.getDeclaredFields().length >= 1)
@@ -79,8 +75,8 @@ public class ObjectInspector
 		f.setAccessible(true);
 		
 		if(! f.getType().isPrimitive() ) 
-		    //objectsToInspect.addElement( f );
-			objectsToInspect.put(count++, f);
+		    objectsToInspect.addElement( f );
+		
 		try
 		    {
 			

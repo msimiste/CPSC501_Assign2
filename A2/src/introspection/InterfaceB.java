@@ -1,3 +1,4 @@
+package introspection;
 
 public interface InterfaceB
 {

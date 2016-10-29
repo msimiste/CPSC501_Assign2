@@ -1,3 +1,4 @@
+package introspection;
 /*==========================================================================
 File: Asst2TestDriver.java
 Purpose: Driver program that loads the objects inspector and runs the
@@ -63,7 +64,7 @@ public class Asst2TestDriver
 	    {
 		
 		e.printStackTrace();
-		throw new Exception("unable to compleatly run test");
+		throw new Exception("unable to completely run test");
 	    
 	    }
     }
