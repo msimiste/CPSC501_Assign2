@@ -8,26 +8,54 @@ public class Inspector {
 	private Map<Integer, Class<?>> classObjects;
 	private int idCounter = 0;
 
+	private boolean recursive;
 	public final String IDIVIDER = "-------------------------------------------";
 	public final String ODIVIDER = "*******************************************";
 
 	public void inspect(Object obj, boolean recursive) {
 
+		this.recursive = recursive;
 		if (obj == null) {
 			throw new IllegalArgumentException("Can't inspect a null object");
 		}
 
 		classObjects = new HashMap<Integer, Class<?>>();
-		if(!(classObjects.containsKey(obj.hashCode()))){
-			classObjects.put(obj.hashCode(), obj.getClass());
+		if (recursive) {
+			Object[] allFields = getAllFieldsRec(obj);
+			for (int i = 0; i < allFields.length; i++) {
+				Class<?> nonFld = allFields.getClass();
+				if (!(nonFld.isInstance(Field.class)) && (recursive)) {
+					if (!(classObjects.containsKey(nonFld.hashCode()))) {
+						classObjects.put(nonFld.hashCode(), obj.getClass());
+					}
+				}
+			}
 		}
-		
 
 		for (Class<?> cls : classObjects.values()) {
 			// get Class information
 			getClassInfo(cls);
 
 		}
+	}
+
+	private Object[] getAllFieldsRec(Object obj) {
+
+		if (obj == null) {
+			return null;
+		}
+		ArrayList<Object> arr = new ArrayList<Object>();
+		Class<?> c = obj.getClass();
+
+		while (c != null) {
+			Field[] f = c.getDeclaredFields();
+			for (int i = 0; i < f.length; i++) {
+				arr.add(f[i]);
+			}
+			c = c.getSuperclass();
+		}
+		Object[] o = new Object[arr.size()];
+		return o;
 	}
 
 	private void getClassInfo(Class<?> cls) {
@@ -61,32 +89,47 @@ public class Inspector {
 			f.setAccessible(true);
 			System.out.println("Field " + (fieldCount));
 			System.out.println("\tName: " + f.getName());
-			
 
 			try {
-				Object c = f.get(cls.newInstance());
 				Class<?> type = f.getType();
 				if (type.isPrimitive()) {
-
-					
+					Object c = f.get(cls.newInstance());
 					System.out.println("\tType: " + c.getClass().getTypeName());
 					System.out.println("\tValue: " + c.toString());
 					System.out.println("\tModifiers: "
 							+ Modifier.toString(c.getClass().getModifiers()));
 				} else if (type.isArray()) {
-					System.out.println("\tValue: an arrray ");
-				} else {
-					System.out.print("\tType: " + f.getType());
-					if(c != null){
-						System.out.println("\tValue: " + c.toString());
+					int indexLength = Array.getLength(f.get(cls.newInstance()));
+
+					Object[] arr = (Object[]) Array.newInstance(type,
+							indexLength);
+					System.out.println("\tType: "
+							+ arr.getClass().getTypeName());
+					System.out.println("\tLength: " + arr.length);
+					for (int i = 0; i < arr.length; i++) {
+						if (arr[i] == null) {
+							System.out.println("\t\tValue: null");
+						} else {
+							System.out.println("\tValue: "
+									+ arr[i].getClass().getName());
+						}
 					}
-					else{
+					System.out.println("\tModifiers: "
+							+ Modifier.toString(arr.getClass().getModifiers()));
+				} else {
+					Object c;
+					if (!(recursive)) {
+						c = f.get(cls.newInstance());
+					} else {
+						c = f.getClass();
+					}
+					System.out.print("\tType: " + type);
+					if (c != null) {
+						System.out.println("\tValue: " + c.toString());
+					} else {
 						System.out.println("\tValue: null");
 					}
-					//System.out
-						//	.println("\tValue is not primitive or an array: ");
 				}
-
 				fieldCount++;
 				System.out.println(IDIVIDER);
 			} catch (IllegalArgumentException e) {
