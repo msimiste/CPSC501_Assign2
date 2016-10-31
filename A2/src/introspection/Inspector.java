@@ -18,7 +18,10 @@ public class Inspector {
 		}
 
 		classObjects = new HashMap<Integer, Class<?>>();
-		classObjects.put(idCounter++, obj.getClass());
+		if(!(classObjects.containsKey(obj.hashCode()))){
+			classObjects.put(obj.hashCode(), obj.getClass());
+		}
+		
 
 		for (Class<?> cls : classObjects.values()) {
 			// get Class information
@@ -45,41 +48,97 @@ public class Inspector {
 		}
 		System.out.println(IDIVIDER);
 		System.out.println(ODIVIDER);
-		Constructor[] constructors = cls.getConstructors();
+
+		Field[] fields = cls.getDeclaredFields();
+		int fieldTotal = fields.length;
+		int fieldCount = 1;
+		System.out.println(ODIVIDER);
+		System.out.println(cls.getName() + " declares " + fieldTotal
+				+ " Fields");
+		System.out.println(IDIVIDER);
+		for (Field f : fields) {
+
+			f.setAccessible(true);
+			System.out.println("Field " + (fieldCount));
+			System.out.println("\tName: " + f.getName());
+			
+
+			try {
+				Object c = f.get(cls.newInstance());
+				Class<?> type = f.getType();
+				if (type.isPrimitive()) {
+
+					
+					System.out.println("\tType: " + c.getClass().getTypeName());
+					System.out.println("\tValue: " + c.toString());
+					System.out.println("\tModifiers: "
+							+ Modifier.toString(c.getClass().getModifiers()));
+				} else if (type.isArray()) {
+					System.out.println("\tValue: an arrray ");
+				} else {
+					System.out.print("\tType: " + f.getType());
+					if(c != null){
+						System.out.println("\tValue: " + c.toString());
+					}
+					else{
+						System.out.println("\tValue: null");
+					}
+					//System.out
+						//	.println("\tValue is not primitive or an array: ");
+				}
+
+				fieldCount++;
+				System.out.println(IDIVIDER);
+			} catch (IllegalArgumentException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IllegalAccessException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (InstantiationException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (SecurityException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+
+		Constructor[] constructors = cls.getDeclaredConstructors();
 		int constructorTotal = constructors.length;
 		int constructorCount = 1;
 		System.out.println(cls.getName() + " has " + constructorTotal
 				+ " constructors ");
-
+		System.out.println(ODIVIDER);
 		for (Constructor c : constructors) {
-			System.out.println(ODIVIDER);
+			System.out.println(IDIVIDER);
 			System.out.println("Constructor " + (constructorCount++) + " is "
 					+ c.getName());
-			System.out.println(ODIVIDER);
+			System.out.println(IDIVIDER);
 			System.out.println("\t" + c.getName() + " requires: "
 					+ c.getParameterCount() + " parameters");
 			listConstructorParameterTypes(c);
 			System.out.print("\t" + c.getName()
 					+ " has the following modifiers: ");
 			listConstructorModifiers(c);
+			System.out.println(IDIVIDER);
 		}
-			
-		
+
 		Method[] methods = cls.getDeclaredMethods();
 		int methodTotal = methods.length;
+		System.out.println(ODIVIDER);
 		System.out.println(cls.getName() + " declares " + methodTotal
 				+ " Methods");
 		int methodCount = 1;
+		System.out.println(ODIVIDER);
 		for (Method m : methods) {
-			System.out.println(ODIVIDER);
 			System.out.println("Method " + (methodCount++) + " is "
 					+ m.getName());
-			System.out.println(ODIVIDER);
-			System.out.println("\t" + m.getName()
-					+ " return type: "
+			System.out.println(IDIVIDER);
+			System.out.println("\t" + m.getName() + " return type: "
 					+ m.getReturnType().getName());
 			System.out.println("\t" + m.getName() + " throws: "
-					+ m.getExceptionTypes().length + " excptions");
+					+ m.getExceptionTypes().length + " exceptions");
 			listExceptions(m);
 			System.out.println("\t" + m.getName() + " requires: "
 					+ m.getParameterCount() + " parameters");
@@ -87,8 +146,9 @@ public class Inspector {
 			System.out.print("\t" + m.getName()
 					+ " has the following modifiers: ");
 			listMethodModifiers(m);
-
+			System.out.println(IDIVIDER);
 		}
+
 	}
 
 	private boolean isInheritable(Member member) {
@@ -104,7 +164,7 @@ public class Inspector {
 
 	private void listConstructorModifiers(Constructor c) {
 		System.out.println(Modifier.toString(c.getModifiers()));
-		
+
 	}
 
 	private void listConstructorParameterTypes(Constructor c) {
@@ -137,7 +197,6 @@ public class Inspector {
 
 	private void listMethodModifiers(Method m) {
 		System.out.println(Modifier.toString(m.getModifiers()));
-	
 
 	}
 
