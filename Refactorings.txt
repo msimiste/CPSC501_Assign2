@@ -1,6 +1,6 @@
 Refactorings
 
-I have performed several refacotrings of the type "Extract Method". Below is a snippet of the logs demonstrating the commits associated with these refactorings:
+I have performed several refactorings of the type "Extract Method". Below is a snippet of the logs demonstrating the commits associated with these refactorings:
 	e2276a1bc7006c7bebe7ae6554be5aea93785a71 Refactoring, extract method within getClassInfo()
 	a7b94cd406ef7a1ff192e6cc51b6b70a3f2af8d0 Refactoring and attempted merge trying to import project to school CPSC machines
 	7e66436f5d382d126c3de6c81afa6b56c49f0bd0 Refactoring, attempting refactoring and importing project to CPSC network
@@ -23,3 +23,6 @@ My solution was the following:
 I should add that prior to implementing this solution, I tested git diff --no-index command by copying the same output to 2 different files and changing 1 line of text in the 2nd file.
 Next, I ran the git diff --no-index command. After this point I undid my change to the 2nd file, and re-performed the diff to ensure that it would show a change.
 	
+I attempted to do additional refactoring on the newly created methods, however when applying the diff --no-index command I noticed differences. It appeared that the information was the same, but perhaps in a different order. (since the files were of the same number of lines). As a result I abandoned this exercise and reverted to a previous source control state. 
+
+There are many more refactorings that could be done to this code. However, the time contraints I am under force me to stop at this point.
