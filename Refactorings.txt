@@ -1,0 +1,25 @@
+Refactorings
+
+I have performed several refacotrings of the type "Extract Method". Below is a snippet of the logs demonstrating the commits associated with these refactorings:
+	e2276a1bc7006c7bebe7ae6554be5aea93785a71 Refactoring, extract method within getClassInfo()
+	a7b94cd406ef7a1ff192e6cc51b6b70a3f2af8d0 Refactoring and attempted merge trying to import project to school CPSC machines
+	7e66436f5d382d126c3de6c81afa6b56c49f0bd0 Refactoring, attempting refactoring and importing project to CPSC network
+	634362b6900e4eb6689743f99e48fea32300aa42 Refactoring, extractring method for getInterfaces
+
+The reason for these refactorings, aka the "bad smell" was long method. There is a logical breakup of tasks and the refactoring preformed accomplishes this.
+All methods in this case are of type "void" making unit tests difficult. While it is possible to examine console output for unit tests, the output in this case is extremely large.
+
+My solution was the following:
+
+	1. Prior to any refactoring, I ran the solution, and copied the output to a text file, which I named compare1.txt
+	2. Extract the code to a method, comment it out in existing method.
+	3. Add a call to the newly created method.
+	4. run the program
+	5. copy the console output to a file called Compare2.txt
+	6. perform a git diff --no-index compare1 Compare2
+	7. if no differences, refactoring is successful
+	8. add/commit/push to source control
+
+I should add that prior to implementing this solution, I tested git diff --no-index command by copying the same output to 2 different files and changing 1 line of text in the 2nd file.
+Next, I ran the git diff --no-index command. After this point I undid my change to the 2nd file, and re-performed the diff to ensure that it would show a change.
+	

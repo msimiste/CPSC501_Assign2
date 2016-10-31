@@ -1,0 +1,17 @@
+e2276a1bc7006c7bebe7ae6554be5aea93785a71 Refactoring, extract method within getClassInfo()
+83f180185edd1e1c84c808a3a542e101845dc2e1 removed leftover files from merege
+a7b94cd406ef7a1ff192e6cc51b6b70a3f2af8d0 Refactoring and attempted merge trying to import project to school CPSC machines
+7e66436f5d382d126c3de6c81afa6b56c49f0bd0 Refactoring, attempting refactoring and importing project to CPSC network
+634362b6900e4eb6689743f99e48fea32300aa42 Refactoring, extractring method for getInterfaces
+9cd0a22d56ced9a0b8651a4d85cdc2f2bb50a324 trying to push proper files in order to import on CPSCLab computers
+91ca839fc7cdf2220dc6c95ab2823a665b2e3757 changed ignore again
+0a038e1bff2e70520509b1d99570ec3e96dd2722 modified .gitignore to include project and /bin
+bafd82dac930799aaddcba1ce620e144689a15d1 Arrays Working basic initial unit tests working
+ba722b1c046a4d582cec6bc82a12826b1032b308 Fields working except for Arrays
+7e80e9175aa62e16a8dc662fdf2ababbedae1811 fixed the inspection of methods, s.t. only declared methods are inspected
+d2af73c1c07be539649b6bca731d58ff89b0d09a Methods and associated values functioning
+a610ad890bdcdcd0242085f11ecfde34186e3c49 get interfaces is functioning
+2244668ad1b861eec44161c3896c59f6eaad9073 Merge branch 'master' of https://github.com/msimiste/CPSC501_Assign2
+89390d510fc737d51522b4b5fd8d32f3aada3b6a Get class working get superclass working
+8d6c1916998288b36e69b037a0b8d13fb32e6de9 first commit - just getting set up, testing git ignore file
+78c20d25ff3cf449ab9879295f33c8438fe7d8fe Added ignore file

@@ -1,17 +1,20 @@
 package introspection;
 
 import java.util.*;
-import java.util.Map.Entry;
 import java.lang.reflect.*;
 
 public class Inspector {
 	private Map<Integer, Class<?>> classObjects;
-	private int idCounter = 0;
-
+	
 	private boolean recursive;
 	public final String IDIVIDER = "-------------------------------------------";
 	public final String ODIVIDER = "*******************************************";
 
+	/**
+	 * Method Initiates the inspection process
+	 * @param obj the object to be inspected
+	 * @param recursive the boolean value which determines if recursive inspection is to be performed or not
+	 */
 	public void inspect(Object obj, boolean recursive) {
 
 		this.recursive = recursive;
@@ -39,6 +42,12 @@ public class Inspector {
 
 		}
 	}
+	
+	/**
+	 * Method recursively gets all Fields within an object
+	 * @param obj The object from which to obtain fields
+	 * @return
+	 */
 	private Object[] getAllFieldsRec(Object obj) {
 
 		if (obj == null) {
@@ -58,32 +67,24 @@ public class Inspector {
 		return o;
 	}
 
+	/**
+	 * 
+	 * @param cls
+	 */
 	private void getClassInfo(Class<?> cls) {
 	
 		displayClassInterfaces(cls);
 		displayFields(cls);
-		displayConstructors(cls);
-		
-	/*	Constructor<?>[] constructors = cls.getDeclaredConstructors();
-		int constructorTotal = constructors.length;
-		int constructorCount = 1;
-		System.out.println(cls.getName() + " has " + constructorTotal
-				+ " constructors ");
-		System.out.println(ODIVIDER);
-		for (Constructor<?> c : constructors) {
-			System.out.println(IDIVIDER);
-			System.out.println("Constructor " + (constructorCount++) + " is "
-					+ c.getName());
-			System.out.println(IDIVIDER);
-			System.out.println("\t" + c.getName() + " requires: "
-					+ c.getParameterCount() + " parameters");
-			listConstructorParameterTypes(c);
-			System.out.print("\t" + c.getName()
-					+ " has the following modifiers: ");
-			listConstructorModifiers(c);
-			System.out.println(IDIVIDER);
-		}
-*/
+		displayConstructors(cls);		
+		displayMethods(cls);
+
+	}
+	
+	/**
+	 * 
+	 * @param cls
+	 */
+	private void displayMethods(Class<?> cls){
 		Method[] methods = cls.getDeclaredMethods();
 		int methodTotal = methods.length;
 		System.out.println(ODIVIDER);
@@ -108,9 +109,11 @@ public class Inspector {
 			listMethodModifiers(m);
 			System.out.println(IDIVIDER);
 		}
-
 	}
-	
+	 /**
+	  * 
+	  * @param cls
+	  */
 	private void displayConstructors(Class<?> cls){
 		Constructor<?>[] constructors = cls.getDeclaredConstructors();
 		int constructorTotal = constructors.length;
@@ -133,6 +136,10 @@ public class Inspector {
 		}
 	}
 	
+	/**
+	 * 
+	 * @param cls
+	 */
 	private void displayClassInterfaces(Class<?> cls){
 		System.out.println("Class Name: " + cls.getName());
 		System.out.println("Class Simple Name: " + cls.getSimpleName());
@@ -153,6 +160,10 @@ public class Inspector {
 		System.out.println(ODIVIDER);
 	}
 	
+	/**
+	 * 
+	 * @param cls
+	 */
 	private void displayFields(Class<?> cls){
 		Field[] fields = cls.getDeclaredFields();
 		int fieldTotal = fields.length;
@@ -226,13 +237,19 @@ public class Inspector {
 
 	}
 	
-
-
+	/**
+	 * 
+	 * @param c
+	 */
 	private void listConstructorModifiers(Constructor<?> c) {
 		System.out.println(Modifier.toString(c.getModifiers()));
 
 	}
 
+	/**
+	 * 
+	 * @param c
+	 */
 	private void listConstructorParameterTypes(Constructor<?> c) {
 		Class<?>[] parameters = c.getParameterTypes();
 		Parameter[] params = c.getParameters();
@@ -243,6 +260,10 @@ public class Inspector {
 		}
 	}
 
+	/**
+	 * 
+	 * @param m
+	 */
 	private void listExceptions(Method m) {
 		Class<?>[] exceptions = m.getExceptionTypes();
 		for (Class<?> e : exceptions) {
@@ -250,6 +271,10 @@ public class Inspector {
 		}
 	}
 
+	/**
+	 * 
+	 * @param m
+	 */
 	private void listMethodParameterTypes(Method m) {
 		Class<?>[] parameters = m.getParameterTypes();
 		Parameter[] params = m.getParameters();
@@ -260,6 +285,10 @@ public class Inspector {
 		}
 	}
 
+	/**
+	 * 
+	 * @param m
+	 */
 	private void listMethodModifiers(Method m) {
 		System.out.println(Modifier.toString(m.getModifiers()));
 
