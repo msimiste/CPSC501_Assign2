@@ -20,6 +20,7 @@ public class Inspector {
 		}
 
 		classObjects = new HashMap<Integer, Class<?>>();
+		//classObjects = getAllClasses(obj, classObjects);
 		if (recursive) {
 			Object[] allFields = getAllFieldsRec(obj);
 			for (int i = 0; i < allFields.length; i++) {
@@ -38,6 +39,27 @@ public class Inspector {
 
 		}
 	}
+
+	/*private Map<Integer, Class<?>> getAllClasses(Object obj,
+			Map<Integer, Class<?>> classes) {
+
+		if (obj == null) {
+			return classes;
+		}
+		Class<?> cls = obj.getClass();
+		Class<?>[] classArr = cls.getDeclaredClasses();
+
+		while (cls != null)
+			for (Class<?> c : classArr) {
+				if (!(classes.containsKey(cls.hashCode()))) {
+					classes.put(cls.hashCode(), cls);
+				}
+			}
+		cls = cls.getSuperclass();
+
+		return classes;
+
+	}*/
 
 	private Object[] getAllFieldsRec(Object obj) {
 
