@@ -1,3 +1,9 @@
+commit 8cc771544f9289fd5ec5808fc315ae4229f8176b
+Author: Mike Simister <mikesimister@shaw.ca>
+Date:   Mon Oct 31 21:24:16 2016 -0600
+
+    Revising refactoring and logs for submission
+
 commit 7b093250b84f45cc00863f5671810483b8c9fe3a
 Author: Mike Simister <mikesimister@shaw.ca>
 Date:   Mon Oct 31 21:12:17 2016 -0600
