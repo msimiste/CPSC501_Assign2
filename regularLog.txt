@@ -1,0 +1,119 @@
+commit 5fc07f8d31c6e7126c932d97a6e53653b79d4eac
+Author: msimiste <mikesimister@shaw.ca>
+Date:   Mon Oct 31 15:20:50 2016 -0600
+
+    Adding Refactorings document
+
+commit a1b070375cefe790ed7b6982ad58ae77a7dd6cd2
+Author: Mike Simister <mikesimister@shaw.ca>
+Date:   Mon Oct 31 13:56:47 2016 -0600
+
+    Added Refactoring description, comments
+
+commit e2276a1bc7006c7bebe7ae6554be5aea93785a71
+Author: Mike Simister <mikesimister@shaw.ca>
+Date:   Mon Oct 31 13:27:10 2016 -0600
+
+    Refactoring, extract method within getClassInfo()
+
+commit 83f180185edd1e1c84c808a3a542e101845dc2e1
+Author: Mike Simister <mikesimister@shaw.ca>
+Date:   Mon Oct 31 13:22:35 2016 -0600
+
+    removed leftover files from merege
+
+commit a7b94cd406ef7a1ff192e6cc51b6b70a3f2af8d0
+Merge: 7e66436 634362b
+Author: Mike Simister <mikesimister@shaw.ca>
+Date:   Mon Oct 31 13:20:12 2016 -0600
+
+    Refactoring and attempted merge
+    trying to import project to school CPSC machines
+
+commit 7e66436f5d382d126c3de6c81afa6b56c49f0bd0
+Author: Mike Simister <mikesimister@shaw.ca>
+Date:   Mon Oct 31 13:15:59 2016 -0600
+
+    Refactoring, attempting refactoring and importing project to CPSC network
+
+commit 634362b6900e4eb6689743f99e48fea32300aa42
+Author: Mike Simister <mikesimister@shaw.ca>
+Date:   Mon Oct 31 12:30:22 2016 -0600
+
+    Refactoring, extractring method for getInterfaces
+
+commit 9cd0a22d56ced9a0b8651a4d85cdc2f2bb50a324
+Author: msimiste <mikesimister@shaw.ca>
+Date:   Mon Oct 31 12:07:00 2016 -0600
+
+    trying to push proper files in order to import on CPSCLab computers
+
+commit 91ca839fc7cdf2220dc6c95ab2823a665b2e3757
+Author: msimiste <mikesimister@shaw.ca>
+Date:   Mon Oct 31 11:41:34 2016 -0600
+
+    changed ignore again
+
+commit 0a038e1bff2e70520509b1d99570ec3e96dd2722
+Author: msimiste <mikesimister@shaw.ca>
+Date:   Mon Oct 31 11:38:47 2016 -0600
+
+    modified .gitignore to include project and /bin
+
+commit bafd82dac930799aaddcba1ce620e144689a15d1
+Author: msimiste <mikesimister@shaw.ca>
+Date:   Mon Oct 31 01:21:51 2016 -0600
+
+    Arrays Working
+    basic initial unit tests working
+
+commit ba722b1c046a4d582cec6bc82a12826b1032b308
+Author: msimiste <mikesimister@shaw.ca>
+Date:   Sun Oct 30 19:38:38 2016 -0600
+
+    Fields working except for Arrays
+
+commit 7e80e9175aa62e16a8dc662fdf2ababbedae1811
+Author: msimiste <mikesimister@shaw.ca>
+Date:   Sun Oct 30 01:22:22 2016 -0600
+
+    fixed the inspection of methods, s.t. only declared methods are inspected
+
+commit d2af73c1c07be539649b6bca731d58ff89b0d09a
+Author: msimiste <mikesimister@shaw.ca>
+Date:   Sat Oct 29 20:42:22 2016 -0600
+
+    Methods and associated values functioning
+
+commit a610ad890bdcdcd0242085f11ecfde34186e3c49
+Author: msimiste <mikesimister@shaw.ca>
+Date:   Sat Oct 29 18:45:29 2016 -0600
+
+    get interfaces is functioning
+
+commit 2244668ad1b861eec44161c3896c59f6eaad9073
+Merge: 89390d5 78c20d2
+Author: msimiste <mikesimister@shaw.ca>
+Date:   Sat Oct 29 16:18:08 2016 -0600
+
+    Merge branch 'master' of https://github.com/msimiste/CPSC501_Assign2
+
+commit 89390d510fc737d51522b4b5fd8d32f3aada3b6a
+Author: msimiste <mikesimister@shaw.ca>
+Date:   Sat Oct 29 16:15:33 2016 -0600
+
+    Get class working
+    get superclass working
+
+commit 8d6c1916998288b36e69b037a0b8d13fb32e6de9
+Author: msimiste <mikesimister@shaw.ca>
+Date:   Sat Oct 29 13:01:01 2016 -0600
+
+    first commit - just getting set up,
+    testing git ignore file
+
+commit 78c20d25ff3cf449ab9879295f33c8438fe7d8fe
+Author: msimiste <mikesimister@shaw.ca>
+Date:   Sat Oct 29 12:57:54 2016 -0600
+
+    Added ignore file

@@ -1,0 +1,1257 @@
+Script started on Mon 31 Oct 2016 04:18:04 PM MDT
+]777;notify;Command completed;exit]0;msimiste@zone18-ed:~/Desktop/CPSC501/Assignment2/A2/src]7;file://zone18-ed/home/ugd/msimiste/Desktop/CPSC501/Assignment2/A2/src[msimiste@zone18-ed src]$ java introspection.Asst2TestDriver introspection/[K.Inspe ctor true
+Loading object inspector: introspection.Inspector
+======================================================
+Running Test: ClassA
+Class Name: introspection.ClassA
+Class Simple Name: ClassA
+Immediate Superclass: java.lang.Object
+*******************************************
+introspection.ClassA implements 2 interfaces
+*******************************************
+-------------------------------------------
+	Interface  1 java.io.Serializable
+	Interface  2 java.lang.Runnable
+-------------------------------------------
+*******************************************
+*******************************************
+introspection.ClassA declares 3 Fields
+-------------------------------------------
+Field 1
+	Name: val
+	Type: java.lang.Integer
+	Value: 3
+	Modifiers: public final
+-------------------------------------------
+Field 2
+	Name: val2
+	Type: java.lang.Double
+	Value: 0.2
+	Modifiers: public final
+-------------------------------------------
+Field 3
+	Name: val3
+	Type: java.lang.Boolean
+	Value: true
+	Modifiers: public final
+-------------------------------------------
+introspection.ClassA has 2 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is introspection.ClassA
+-------------------------------------------
+	introspection.ClassA requires: 0 parameters
+	introspection.ClassA has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 2 is introspection.ClassA
+-------------------------------------------
+	introspection.ClassA requires: 1 parameters
+		arg0	int
+	introspection.ClassA has the following modifiers: public
+-------------------------------------------
+*******************************************
+introspection.ClassA declares 5 Methods
+*******************************************
+Method 1 is getVal
+-------------------------------------------
+	getVal return type: int
+	getVal throws: 0 exceptions
+	getVal requires: 0 parameters
+	getVal has the following modifiers: public
+-------------------------------------------
+Method 2 is printSomething
+-------------------------------------------
+	printSomething return type: void
+	printSomething throws: 0 exceptions
+	printSomething requires: 0 parameters
+	printSomething has the following modifiers: private
+-------------------------------------------
+Method 3 is run
+-------------------------------------------
+	run return type: void
+	run throws: 0 exceptions
+	run requires: 0 parameters
+	run has the following modifiers: public
+-------------------------------------------
+Method 4 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 5 is setVal
+-------------------------------------------
+	setVal return type: void
+	setVal throws: 1 exceptions
+		java.lang.Exception
+	setVal requires: 1 parameters
+		arg0	int
+	setVal has the following modifiers: public
+-------------------------------------------
+======================================================
+======================================================
+Running Test: ClassA
+Class Name: introspection.ClassA
+Class Simple Name: ClassA
+Immediate Superclass: java.lang.Object
+*******************************************
+introspection.ClassA implements 2 interfaces
+*******************************************
+-------------------------------------------
+	Interface  1 java.io.Serializable
+	Interface  2 java.lang.Runnable
+-------------------------------------------
+*******************************************
+*******************************************
+introspection.ClassA declares 3 Fields
+-------------------------------------------
+Field 1
+	Name: val
+	Type: java.lang.Integer
+	Value: 3
+	Modifiers: public final
+-------------------------------------------
+Field 2
+	Name: val2
+	Type: java.lang.Double
+	Value: 0.2
+	Modifiers: public final
+-------------------------------------------
+Field 3
+	Name: val3
+	Type: java.lang.Boolean
+	Value: true
+	Modifiers: public final
+-------------------------------------------
+introspection.ClassA has 2 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is introspection.ClassA
+-------------------------------------------
+	introspection.ClassA requires: 0 parameters
+	introspection.ClassA has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 2 is introspection.ClassA
+-------------------------------------------
+	introspection.ClassA requires: 1 parameters
+		arg0	int
+	introspection.ClassA has the following modifiers: public
+-------------------------------------------
+*******************************************
+introspection.ClassA declares 5 Methods
+*******************************************
+Method 1 is getVal
+-------------------------------------------
+	getVal return type: int
+	getVal throws: 0 exceptions
+	getVal requires: 0 parameters
+	getVal has the following modifiers: public
+-------------------------------------------
+Method 2 is printSomething
+-------------------------------------------
+	printSomething return type: void
+	printSomething throws: 0 exceptions
+	printSomething requires: 0 parameters
+	printSomething has the following modifiers: private
+-------------------------------------------
+Method 3 is run
+-------------------------------------------
+	run return type: void
+	run throws: 0 exceptions
+	run requires: 0 parameters
+	run has the following modifiers: public
+-------------------------------------------
+Method 4 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 5 is setVal
+-------------------------------------------
+	setVal return type: void
+	setVal throws: 1 exceptions
+		java.lang.Exception
+	setVal requires: 1 parameters
+		arg0	int
+	setVal has the following modifiers: public
+-------------------------------------------
+======================================================
+======================================================
+Running Test: ClassB
+Class Name: introspection.ClassB
+Class Simple Name: ClassB
+Immediate Superclass: introspection.ClassC
+*******************************************
+introspection.ClassB implements 1 interfaces
+*******************************************
+-------------------------------------------
+	Interface  1 java.lang.Runnable
+-------------------------------------------
+*******************************************
+*******************************************
+introspection.ClassB declares 3 Fields
+-------------------------------------------
+Field 1
+	Name: val
+	Type: class introspection.ClassA	Value: class java.lang.reflect.Field
+-------------------------------------------
+Field 2
+	Name: val2
+	Type: class introspection.ClassA	Value: class java.lang.reflect.Field
+-------------------------------------------
+Field 3
+	Name: val3
+	Type: class introspection.ClassA	Value: class java.lang.reflect.Field
+-------------------------------------------
+introspection.ClassB has 1 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is introspection.ClassB
+-------------------------------------------
+	introspection.ClassB requires: 0 parameters
+	introspection.ClassB has the following modifiers: public
+-------------------------------------------
+*******************************************
+introspection.ClassB declares 3 Methods
+*******************************************
+Method 1 is func3
+-------------------------------------------
+	func3 return type: void
+	func3 throws: 0 exceptions
+	func3 requires: 1 parameters
+		arg0	int
+	func3 has the following modifiers: public
+-------------------------------------------
+Method 2 is run
+-------------------------------------------
+	run return type: void
+	run throws: 0 exceptions
+	run requires: 0 parameters
+	run has the following modifiers: public
+-------------------------------------------
+Method 3 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+======================================================
+======================================================
+Running Test: ClassD
+Class Name: introspection.ClassD
+Class Simple Name: ClassD
+Immediate Superclass: java.lang.Object
+*******************************************
+introspection.ClassD implements 0 interfaces
+*******************************************
+-------------------------------------------
+-------------------------------------------
+*******************************************
+*******************************************
+introspection.ClassD declares 4 Fields
+-------------------------------------------
+Field 1
+	Name: val
+	Type: class introspection.ClassA	Value: class java.lang.reflect.Field
+-------------------------------------------
+Field 2
+	Name: val2
+	Type: class introspection.ClassA	Value: class java.lang.reflect.Field
+-------------------------------------------
+Field 3
+	Name: val3
+	Type: java.lang.Integer
+	Value: 34
+	Modifiers: public final
+-------------------------------------------
+Field 4
+	Name: vallarray
+	Type: introspection.ClassA[][]
+	Length: 10
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+	Modifiers: public abstract final
+-------------------------------------------
+introspection.ClassD has 2 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is introspection.ClassD
+-------------------------------------------
+	introspection.ClassD requires: 0 parameters
+	introspection.ClassD has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 2 is introspection.ClassD
+-------------------------------------------
+	introspection.ClassD requires: 1 parameters
+		arg0	int
+	introspection.ClassD has the following modifiers: public
+-------------------------------------------
+*******************************************
+introspection.ClassD declares 2 Methods
+*******************************************
+Method 1 is getVal3
+-------------------------------------------
+	getVal3 return type: int
+	getVal3 throws: 0 exceptions
+	getVal3 requires: 0 parameters
+	getVal3 has the following modifiers: public
+-------------------------------------------
+Method 2 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+======================================================
+======================================================
+Running Test: ClassD
+Class Name: introspection.ClassD
+Class Simple Name: ClassD
+Immediate Superclass: java.lang.Object
+*******************************************
+introspection.ClassD implements 0 interfaces
+*******************************************
+-------------------------------------------
+-------------------------------------------
+*******************************************
+*******************************************
+introspection.ClassD declares 4 Fields
+-------------------------------------------
+Field 1
+	Name: val
+	Type: class introspection.ClassA	Value: class java.lang.reflect.Field
+-------------------------------------------
+Field 2
+	Name: val2
+	Type: class introspection.ClassA	Value: class java.lang.reflect.Field
+-------------------------------------------
+Field 3
+	Name: val3
+	Type: java.lang.Integer
+	Value: 34
+	Modifiers: public final
+-------------------------------------------
+Field 4
+	Name: vallarray
+	Type: introspection.ClassA[][]
+	Length: 10
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+	Modifiers: public abstract final
+-------------------------------------------
+introspection.ClassD has 2 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is introspection.ClassD
+-------------------------------------------
+	introspection.ClassD requires: 0 parameters
+	introspection.ClassD has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 2 is introspection.ClassD
+-------------------------------------------
+	introspection.ClassD requires: 1 parameters
+		arg0	int
+	introspection.ClassD has the following modifiers: public
+-------------------------------------------
+*******************************************
+introspection.ClassD declares 2 Methods
+*******************************************
+Method 1 is getVal3
+-------------------------------------------
+	getVal3 return type: int
+	getVal3 throws: 0 exceptions
+	getVal3 requires: 0 parameters
+	getVal3 has the following modifiers: public
+-------------------------------------------
+Method 2 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+======================================================
+======================================================
+Running Test: [Lintrospection.ClassB;@33909752
+======================================================
+======================================================
+Running Test: [[Lintrospection.ClassB;@3d4eac69
+======================================================
+======================================================
+Running Test: Test String
+Class Name: java.lang.String
+Class Simple Name: String
+Immediate Superclass: java.lang.Object
+*******************************************
+java.lang.String implements 3 interfaces
+*******************************************
+-------------------------------------------
+	Interface  1 java.io.Serializable
+	Interface  2 java.lang.Comparable
+	Interface  3 java.lang.CharSequence
+-------------------------------------------
+*******************************************
+*******************************************
+java.lang.String declares 5 Fields
+-------------------------------------------
+Field 1
+	Name: value
+	Type: char[][]
+	Length: 0
+	Modifiers: public abstract final
+-------------------------------------------
+Field 2
+	Name: hash
+	Type: java.lang.Integer
+	Value: 0
+	Modifiers: public final
+-------------------------------------------
+Field 3
+	Name: serialVersionUID
+	Type: java.lang.Long
+	Value: -6849794470754667710
+	Modifiers: public final
+-------------------------------------------
+Field 4
+	Name: serialPersistentFields
+	Type: java.io.ObjectStreamField[][]
+	Length: 0
+	Modifiers: public abstract final
+-------------------------------------------
+Field 5
+	Name: CASE_INSENSITIVE_ORDER
+	Type: interface java.util.Comparator	Value: class java.lang.reflect.Field
+-------------------------------------------
+java.lang.String has 16 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is java.lang.String
+-------------------------------------------
+	java.lang.String requires: 3 parameters
+		arg0	[B
+		arg1	int
+		arg2	int
+	java.lang.String has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 2 is java.lang.String
+-------------------------------------------
+	java.lang.String requires: 2 parameters
+		arg0	[B
+		arg1	java.nio.charset.Charset
+	java.lang.String has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 3 is java.lang.String
+-------------------------------------------
+	java.lang.String requires: 2 parameters
+		arg0	[B
+		arg1	java.lang.String
+	java.lang.String has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 4 is java.lang.String
+-------------------------------------------
+	java.lang.String requires: 4 parameters
+		arg0	[B
+		arg1	int
+		arg2	int
+		arg3	java.nio.charset.Charset
+	java.lang.String has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 5 is java.lang.String
+-------------------------------------------
+	java.lang.String requires: 4 parameters
+		arg0	[B
+		arg1	int
+		arg2	int
+		arg3	java.lang.String
+	java.lang.String has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 6 is java.lang.String
+-------------------------------------------
+	java.lang.String requires: 2 parameters
+		arg0	[C
+		arg1	boolean
+	java.lang.String has the following modifiers: 
+-------------------------------------------
+-------------------------------------------
+Constructor 7 is java.lang.String
+-------------------------------------------
+	java.lang.String requires: 1 parameters
+		arg0	java.lang.StringBuilder
+	java.lang.String has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 8 is java.lang.String
+-------------------------------------------
+	java.lang.String requires: 1 parameters
+		arg0	java.lang.StringBuffer
+	java.lang.String has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 9 is java.lang.String
+-------------------------------------------
+	java.lang.String requires: 1 parameters
+		arg0	[B
+	java.lang.String has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 10 is java.lang.String
+-------------------------------------------
+	java.lang.String requires: 3 parameters
+		arg0	[I
+		arg1	int
+		arg2	int
+	java.lang.String has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 11 is java.lang.String
+-------------------------------------------
+	java.lang.String requires: 0 parameters
+	java.lang.String has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 12 is java.lang.String
+-------------------------------------------
+	java.lang.String requires: 1 parameters
+		arg0	[C
+	java.lang.String has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 13 is java.lang.String
+-------------------------------------------
+	java.lang.String requires: 1 parameters
+		arg0	java.lang.String
+	java.lang.String has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 14 is java.lang.String
+-------------------------------------------
+	java.lang.String requires: 3 parameters
+		arg0	[C
+		arg1	int
+		arg2	int
+	java.lang.String has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 15 is java.lang.String
+-------------------------------------------
+	java.lang.String requires: 2 parameters
+		arg0	[B
+		arg1	int
+	java.lang.String has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 16 is java.lang.String
+-------------------------------------------
+	java.lang.String requires: 4 parameters
+		arg0	[B
+		arg1	int
+		arg2	int
+		arg3	int
+	java.lang.String has the following modifiers: public
+-------------------------------------------
+*******************************************
+java.lang.String declares 77 Methods
+*******************************************
+Method 1 is equals
+-------------------------------------------
+	equals return type: boolean
+	equals throws: 0 exceptions
+	equals requires: 1 parameters
+		arg0	java.lang.Object
+	equals has the following modifiers: public
+-------------------------------------------
+Method 2 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 3 is hashCode
+-------------------------------------------
+	hashCode return type: int
+	hashCode throws: 0 exceptions
+	hashCode requires: 0 parameters
+	hashCode has the following modifiers: public
+-------------------------------------------
+Method 4 is compareTo
+-------------------------------------------
+	compareTo return type: int
+	compareTo throws: 0 exceptions
+	compareTo requires: 1 parameters
+		arg0	java.lang.Object
+	compareTo has the following modifiers: public volatile
+-------------------------------------------
+Method 5 is compareTo
+-------------------------------------------
+	compareTo return type: int
+	compareTo throws: 0 exceptions
+	compareTo requires: 1 parameters
+		arg0	java.lang.String
+	compareTo has the following modifiers: public
+-------------------------------------------
+Method 6 is indexOf
+-------------------------------------------
+	indexOf return type: int
+	indexOf throws: 0 exceptions
+	indexOf requires: 2 parameters
+		arg0	java.lang.String
+		arg1	int
+	indexOf has the following modifiers: public
+-------------------------------------------
+Method 7 is indexOf
+-------------------------------------------
+	indexOf return type: int
+	indexOf throws: 0 exceptions
+	indexOf requires: 5 parameters
+		arg0	[C
+		arg1	int
+		arg2	int
+		arg3	java.lang.String
+		arg4	int
+	indexOf has the following modifiers: static
+-------------------------------------------
+Method 8 is indexOf
+-------------------------------------------
+	indexOf return type: int
+	indexOf throws: 0 exceptions
+	indexOf requires: 7 parameters
+		arg0	[C
+		arg1	int
+		arg2	int
+		arg3	[C
+		arg4	int
+		arg5	int
+		arg6	int
+	indexOf has the following modifiers: static
+-------------------------------------------
+Method 9 is indexOf
+-------------------------------------------
+	indexOf return type: int
+	indexOf throws: 0 exceptions
+	indexOf requires: 1 parameters
+		arg0	int
+	indexOf has the following modifiers: public
+-------------------------------------------
+Method 10 is indexOf
+-------------------------------------------
+	indexOf return type: int
+	indexOf throws: 0 exceptions
+	indexOf requires: 1 parameters
+		arg0	java.lang.String
+	indexOf has the following modifiers: public
+-------------------------------------------
+Method 11 is indexOf
+-------------------------------------------
+	indexOf return type: int
+	indexOf throws: 0 exceptions
+	indexOf requires: 2 parameters
+		arg0	int
+		arg1	int
+	indexOf has the following modifiers: public
+-------------------------------------------
+Method 12 is valueOf
+-------------------------------------------
+	valueOf return type: java.lang.String
+	valueOf throws: 0 exceptions
+	valueOf requires: 1 parameters
+		arg0	char
+	valueOf has the following modifiers: public static
+-------------------------------------------
+Method 13 is valueOf
+-------------------------------------------
+	valueOf return type: java.lang.String
+	valueOf throws: 0 exceptions
+	valueOf requires: 1 parameters
+		arg0	java.lang.Object
+	valueOf has the following modifiers: public static
+-------------------------------------------
+Method 14 is valueOf
+-------------------------------------------
+	valueOf return type: java.lang.String
+	valueOf throws: 0 exceptions
+	valueOf requires: 1 parameters
+		arg0	boolean
+	valueOf has the following modifiers: public static
+-------------------------------------------
+Method 15 is valueOf
+-------------------------------------------
+	valueOf return type: java.lang.String
+	valueOf throws: 0 exceptions
+	valueOf requires: 3 parameters
+		arg0	[C
+		arg1	int
+		arg2	int
+	valueOf has the following modifiers: public static
+-------------------------------------------
+Method 16 is valueOf
+-------------------------------------------
+	valueOf return type: java.lang.String
+	valueOf throws: 0 exceptions
+	valueOf requires: 1 parameters
+		arg0	[C
+	valueOf has the following modifiers: public static
+-------------------------------------------
+Method 17 is valueOf
+-------------------------------------------
+	valueOf return type: java.lang.String
+	valueOf throws: 0 exceptions
+	valueOf requires: 1 parameters
+		arg0	double
+	valueOf has the following modifiers: public static
+-------------------------------------------
+Method 18 is valueOf
+-------------------------------------------
+	valueOf return type: java.lang.String
+	valueOf throws: 0 exceptions
+	valueOf requires: 1 parameters
+		arg0	float
+	valueOf has the following modifiers: public static
+-------------------------------------------
+Method 19 is valueOf
+-------------------------------------------
+	valueOf return type: java.lang.String
+	valueOf throws: 0 exceptions
+	valueOf requires: 1 parameters
+		arg0	long
+	valueOf has the following modifiers: public static
+-------------------------------------------
+Method 20 is valueOf
+-------------------------------------------
+	valueOf return type: java.lang.String
+	valueOf throws: 0 exceptions
+	valueOf requires: 1 parameters
+		arg0	int
+	valueOf has the following modifiers: public static
+-------------------------------------------
+Method 21 is checkBounds
+-------------------------------------------
+	checkBounds return type: void
+	checkBounds throws: 0 exceptions
+	checkBounds requires: 3 parameters
+		arg0	[B
+		arg1	int
+		arg2	int
+	checkBounds has the following modifiers: private static
+-------------------------------------------
+Method 22 is length
+-------------------------------------------
+	length return type: int
+	length throws: 0 exceptions
+	length requires: 0 parameters
+	length has the following modifiers: public
+-------------------------------------------
+Method 23 is isEmpty
+-------------------------------------------
+	isEmpty return type: boolean
+	isEmpty throws: 0 exceptions
+	isEmpty requires: 0 parameters
+	isEmpty has the following modifiers: public
+-------------------------------------------
+Method 24 is charAt
+-------------------------------------------
+	charAt return type: char
+	charAt throws: 0 exceptions
+	charAt requires: 1 parameters
+		arg0	int
+	charAt has the following modifiers: public
+-------------------------------------------
+Method 25 is codePointAt
+-------------------------------------------
+	codePointAt return type: int
+	codePointAt throws: 0 exceptions
+	codePointAt requires: 1 parameters
+		arg0	int
+	codePointAt has the following modifiers: public
+-------------------------------------------
+Method 26 is codePointBefore
+-------------------------------------------
+	codePointBefore return type: int
+	codePointBefore throws: 0 exceptions
+	codePointBefore requires: 1 parameters
+		arg0	int
+	codePointBefore has the following modifiers: public
+-------------------------------------------
+Method 27 is codePointCount
+-------------------------------------------
+	codePointCount return type: int
+	codePointCount throws: 0 exceptions
+	codePointCount requires: 2 parameters
+		arg0	int
+		arg1	int
+	codePointCount has the following modifiers: public
+-------------------------------------------
+Method 28 is offsetByCodePoints
+-------------------------------------------
+	offsetByCodePoints return type: int
+	offsetByCodePoints throws: 0 exceptions
+	offsetByCodePoints requires: 2 parameters
+		arg0	int
+		arg1	int
+	offsetByCodePoints has the following modifiers: public
+-------------------------------------------
+Method 29 is getChars
+-------------------------------------------
+	getChars return type: void
+	getChars throws: 0 exceptions
+	getChars requires: 4 parameters
+		arg0	int
+		arg1	int
+		arg2	[C
+		arg3	int
+	getChars has the following modifiers: public
+-------------------------------------------
+Method 30 is getChars
+-------------------------------------------
+	getChars return type: void
+	getChars throws: 0 exceptions
+	getChars requires: 2 parameters
+		arg0	[C
+		arg1	int
+	getChars has the following modifiers: 
+-------------------------------------------
+Method 31 is getBytes
+-------------------------------------------
+	getBytes return type: [B
+	getBytes throws: 0 exceptions
+	getBytes requires: 0 parameters
+	getBytes has the following modifiers: public
+-------------------------------------------
+Method 32 is getBytes
+-------------------------------------------
+	getBytes return type: [B
+	getBytes throws: 1 exceptions
+		java.io.UnsupportedEncodingException
+	getBytes requires: 1 parameters
+		arg0	java.lang.String
+	getBytes has the following modifiers: public
+-------------------------------------------
+Method 33 is getBytes
+-------------------------------------------
+	getBytes return type: void
+	getBytes throws: 0 exceptions
+	getBytes requires: 4 parameters
+		arg0	int
+		arg1	int
+		arg2	[B
+		arg3	int
+	getBytes has the following modifiers: public
+-------------------------------------------
+Method 34 is getBytes
+-------------------------------------------
+	getBytes return type: [B
+	getBytes throws: 0 exceptions
+	getBytes requires: 1 parameters
+		arg0	java.nio.charset.Charset
+	getBytes has the following modifiers: public
+-------------------------------------------
+Method 35 is contentEquals
+-------------------------------------------
+	contentEquals return type: boolean
+	contentEquals throws: 0 exceptions
+	contentEquals requires: 1 parameters
+		arg0	java.lang.StringBuffer
+	contentEquals has the following modifiers: public
+-------------------------------------------
+Method 36 is contentEquals
+-------------------------------------------
+	contentEquals return type: boolean
+	contentEquals throws: 0 exceptions
+	contentEquals requires: 1 parameters
+		arg0	java.lang.CharSequence
+	contentEquals has the following modifiers: public
+-------------------------------------------
+Method 37 is nonSyncContentEquals
+-------------------------------------------
+	nonSyncContentEquals return type: boolean
+	nonSyncContentEquals throws: 0 exceptions
+	nonSyncContentEquals requires: 1 parameters
+		arg0	java.lang.AbstractStringBuilder
+	nonSyncContentEquals has the following modifiers: private
+-------------------------------------------
+Method 38 is equalsIgnoreCase
+-------------------------------------------
+	equalsIgnoreCase return type: boolean
+	equalsIgnoreCase throws: 0 exceptions
+	equalsIgnoreCase requires: 1 parameters
+		arg0	java.lang.String
+	equalsIgnoreCase has the following modifiers: public
+-------------------------------------------
+Method 39 is compareToIgnoreCase
+-------------------------------------------
+	compareToIgnoreCase return type: int
+	compareToIgnoreCase throws: 0 exceptions
+	compareToIgnoreCase requires: 1 parameters
+		arg0	java.lang.String
+	compareToIgnoreCase has the following modifiers: public
+-------------------------------------------
+Method 40 is regionMatches
+-------------------------------------------
+	regionMatches return type: boolean
+	regionMatches throws: 0 exceptions
+	regionMatches requires: 4 parameters
+		arg0	int
+		arg1	java.lang.String
+		arg2	int
+		arg3	int
+	regionMatches has the following modifiers: public
+-------------------------------------------
+Method 41 is regionMatches
+-------------------------------------------
+	regionMatches return type: boolean
+	regionMatches throws: 0 exceptions
+	regionMatches requires: 5 parameters
+		arg0	boolean
+		arg1	int
+		arg2	java.lang.String
+		arg3	int
+		arg4	int
+	regionMatches has the following modifiers: public
+-------------------------------------------
+Method 42 is startsWith
+-------------------------------------------
+	startsWith return type: boolean
+	startsWith throws: 0 exceptions
+	startsWith requires: 1 parameters
+		arg0	java.lang.String
+	startsWith has the following modifiers: public
+-------------------------------------------
+Method 43 is startsWith
+-------------------------------------------
+	startsWith return type: boolean
+	startsWith throws: 0 exceptions
+	startsWith requires: 2 parameters
+		arg0	java.lang.String
+		arg1	int
+	startsWith has the following modifiers: public
+-------------------------------------------
+Method 44 is endsWith
+-------------------------------------------
+	endsWith return type: boolean
+	endsWith throws: 0 exceptions
+	endsWith requires: 1 parameters
+		arg0	java.lang.String
+	endsWith has the following modifiers: public
+-------------------------------------------
+Method 45 is indexOfSupplementary
+-------------------------------------------
+	indexOfSupplementary return type: int
+	indexOfSupplementary throws: 0 exceptions
+	indexOfSupplementary requires: 2 parameters
+		arg0	int
+		arg1	int
+	indexOfSupplementary has the following modifiers: private
+-------------------------------------------
+Method 46 is lastIndexOf
+-------------------------------------------
+	lastIndexOf return type: int
+	lastIndexOf throws: 0 exceptions
+	lastIndexOf requires: 2 parameters
+		arg0	int
+		arg1	int
+	lastIndexOf has the following modifiers: public
+-------------------------------------------
+Method 47 is lastIndexOf
+-------------------------------------------
+	lastIndexOf return type: int
+	lastIndexOf throws: 0 exceptions
+	lastIndexOf requires: 7 parameters
+		arg0	[C
+		arg1	int
+		arg2	int
+		arg3	[C
+		arg4	int
+		arg5	int
+		arg6	int
+	lastIndexOf has the following modifiers: static
+-------------------------------------------
+Method 48 is lastIndexOf
+-------------------------------------------
+	lastIndexOf return type: int
+	lastIndexOf throws: 0 exceptions
+	lastIndexOf requires: 5 parameters
+		arg0	[C
+		arg1	int
+		arg2	int
+		arg3	java.lang.String
+		arg4	int
+	lastIndexOf has the following modifiers: static
+-------------------------------------------
+Method 49 is lastIndexOf
+-------------------------------------------
+	lastIndexOf return type: int
+	lastIndexOf throws: 0 exceptions
+	lastIndexOf requires: 2 parameters
+		arg0	java.lang.String
+		arg1	int
+	lastIndexOf has the following modifiers: public
+-------------------------------------------
+Method 50 is lastIndexOf
+-------------------------------------------
+	lastIndexOf return type: int
+	lastIndexOf throws: 0 exceptions
+	lastIndexOf requires: 1 parameters
+		arg0	int
+	lastIndexOf has the following modifiers: public
+-------------------------------------------
+Method 51 is lastIndexOf
+-------------------------------------------
+	lastIndexOf return type: int
+	lastIndexOf throws: 0 exceptions
+	lastIndexOf requires: 1 parameters
+		arg0	java.lang.String
+	lastIndexOf has the following modifiers: public
+-------------------------------------------
+Method 52 is lastIndexOfSupplementary
+-------------------------------------------
+	lastIndexOfSupplementary return type: int
+	lastIndexOfSupplementary throws: 0 exceptions
+	lastIndexOfSupplementary requires: 2 parameters
+		arg0	int
+		arg1	int
+	lastIndexOfSupplementary has the following modifiers: private
+-------------------------------------------
+Method 53 is substring
+-------------------------------------------
+	substring return type: java.lang.String
+	substring throws: 0 exceptions
+	substring requires: 1 parameters
+		arg0	int
+	substring has the following modifiers: public
+-------------------------------------------
+Method 54 is substring
+-------------------------------------------
+	substring return type: java.lang.String
+	substring throws: 0 exceptions
+	substring requires: 2 parameters
+		arg0	int
+		arg1	int
+	substring has the following modifiers: public
+-------------------------------------------
+Method 55 is subSequence
+-------------------------------------------
+	subSequence return type: java.lang.CharSequence
+	subSequence throws: 0 exceptions
+	subSequence requires: 2 parameters
+		arg0	int
+		arg1	int
+	subSequence has the following modifiers: public
+-------------------------------------------
+Method 56 is concat
+-------------------------------------------
+	concat return type: java.lang.String
+	concat throws: 0 exceptions
+	concat requires: 1 parameters
+		arg0	java.lang.String
+	concat has the following modifiers: public
+-------------------------------------------
+Method 57 is replace
+-------------------------------------------
+	replace return type: java.lang.String
+	replace throws: 0 exceptions
+	replace requires: 2 parameters
+		arg0	char
+		arg1	char
+	replace has the following modifiers: public
+-------------------------------------------
+Method 58 is replace
+-------------------------------------------
+	replace return type: java.lang.String
+	replace throws: 0 exceptions
+	replace requires: 2 parameters
+		arg0	java.lang.CharSequence
+		arg1	java.lang.CharSequence
+	replace has the following modifiers: public
+-------------------------------------------
+Method 59 is matches
+-------------------------------------------
+	matches return type: boolean
+	matches throws: 0 exceptions
+	matches requires: 1 parameters
+		arg0	java.lang.String
+	matches has the following modifiers: public
+-------------------------------------------
+Method 60 is contains
+-------------------------------------------
+	contains return type: boolean
+	contains throws: 0 exceptions
+	contains requires: 1 parameters
+		arg0	java.lang.CharSequence
+	contains has the following modifiers: public
+-------------------------------------------
+Method 61 is replaceFirst
+-------------------------------------------
+	replaceFirst return type: java.lang.String
+	replaceFirst throws: 0 exceptions
+	replaceFirst requires: 2 parameters
+		arg0	java.lang.String
+		arg1	java.lang.String
+	replaceFirst has the following modifiers: public
+-------------------------------------------
+Method 62 is replaceAll
+-------------------------------------------
+	replaceAll return type: java.lang.String
+	replaceAll throws: 0 exceptions
+	replaceAll requires: 2 parameters
+		arg0	java.lang.String
+		arg1	java.lang.String
+	replaceAll has the following modifiers: public
+-------------------------------------------
+Method 63 is split
+-------------------------------------------
+	split return type: [Ljava.lang.String;
+	split throws: 0 exceptions
+	split requires: 2 parameters
+		arg0	java.lang.String
+		arg1	int
+	split has the following modifiers: public
+-------------------------------------------
+Method 64 is split
+-------------------------------------------
+	split return type: [Ljava.lang.String;
+	split throws: 0 exceptions
+	split requires: 1 parameters
+		arg0	java.lang.String
+	split has the following modifiers: public
+-------------------------------------------
+Method 65 is join
+-------------------------------------------
+	join return type: java.lang.String
+	join throws: 0 exceptions
+	join requires: 2 parameters
+		arg0	java.lang.CharSequence
+		arg1	[Ljava.lang.CharSequence;
+	join has the following modifiers: public static transient
+-------------------------------------------
+Method 66 is join
+-------------------------------------------
+	join return type: java.lang.String
+	join throws: 0 exceptions
+	join requires: 2 parameters
+		arg0	java.lang.CharSequence
+		arg1	java.lang.Iterable
+	join has the following modifiers: public static
+-------------------------------------------
+Method 67 is toLowerCase
+-------------------------------------------
+	toLowerCase return type: java.lang.String
+	toLowerCase throws: 0 exceptions
+	toLowerCase requires: 1 parameters
+		arg0	java.util.Locale
+	toLowerCase has the following modifiers: public
+-------------------------------------------
+Method 68 is toLowerCase
+-------------------------------------------
+	toLowerCase return type: java.lang.String
+	toLowerCase throws: 0 exceptions
+	toLowerCase requires: 0 parameters
+	toLowerCase has the following modifiers: public
+-------------------------------------------
+Method 69 is toUpperCase
+-------------------------------------------
+	toUpperCase return type: java.lang.String
+	toUpperCase throws: 0 exceptions
+	toUpperCase requires: 0 parameters
+	toUpperCase has the following modifiers: public
+-------------------------------------------
+Method 70 is toUpperCase
+-------------------------------------------
+	toUpperCase return type: java.lang.String
+	toUpperCase throws: 0 exceptions
+	toUpperCase requires: 1 parameters
+		arg0	java.util.Locale
+	toUpperCase has the following modifiers: public
+-------------------------------------------
+Method 71 is trim
+-------------------------------------------
+	trim return type: java.lang.String
+	trim throws: 0 exceptions
+	trim requires: 0 parameters
+	trim has the following modifiers: public
+-------------------------------------------
+Method 72 is toCharArray
+-------------------------------------------
+	toCharArray return type: [C
+	toCharArray throws: 0 exceptions
+	toCharArray requires: 0 parameters
+	toCharArray has the following modifiers: public
+-------------------------------------------
+Method 73 is format
+-------------------------------------------
+	format return type: java.lang.String
+	format throws: 0 exceptions
+	format requires: 3 parameters
+		arg0	java.util.Locale
+		arg1	java.lang.String
+		arg2	[Ljava.lang.Object;
+	format has the following modifiers: public static transient
+-------------------------------------------
+Method 74 is format
+-------------------------------------------
+	format return type: java.lang.String
+	format throws: 0 exceptions
+	format requires: 2 parameters
+		arg0	java.lang.String
+		arg1	[Ljava.lang.Object;
+	format has the following modifiers: public static transient
+-------------------------------------------
+Method 75 is copyValueOf
+-------------------------------------------
+	copyValueOf return type: java.lang.String
+	copyValueOf throws: 0 exceptions
+	copyValueOf requires: 3 parameters
+		arg0	[C
+		arg1	int
+		arg2	int
+	copyValueOf has the following modifiers: public static
+-------------------------------------------
+Method 76 is copyValueOf
+-------------------------------------------
+	copyValueOf return type: java.lang.String
+	copyValueOf throws: 0 exceptions
+	copyValueOf requires: 1 parameters
+		arg0	[C
+	copyValueOf has the following modifiers: public static
+-------------------------------------------
+Method 77 is intern
+-------------------------------------------
+	intern return type: java.lang.String
+	intern throws: 0 exceptions
+	intern requires: 0 parameters
+	intern has the following modifiers: public native
+-------------------------------------------
+======================================================
+]777;notify;Command completed;java introspection.Asst2TestDriver introspection.Inspector true]0;msimiste@zone18-ed:~/Desktop/CPSC501/Assignment2/A2/src]7;file://zone18-ed/home/ugd/msimiste/Desktop/CPSC501/Assignment2/A2/src[msimiste@zone18-ed src]$ exit
+exit
+
+Script done on Mon 31 Oct 2016 04:18:20 PM MDT

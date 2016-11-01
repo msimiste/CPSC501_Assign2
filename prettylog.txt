@@ -1,3 +1,5 @@
+5fc07f8d31c6e7126c932d97a6e53653b79d4eac Adding Refactorings document
+a1b070375cefe790ed7b6982ad58ae77a7dd6cd2 Added Refactoring description, comments
 e2276a1bc7006c7bebe7ae6554be5aea93785a71 Refactoring, extract method within getClassInfo()
 83f180185edd1e1c84c808a3a542e101845dc2e1 removed leftover files from merege
 a7b94cd406ef7a1ff192e6cc51b6b70a3f2af8d0 Refactoring and attempted merge trying to import project to school CPSC machines
