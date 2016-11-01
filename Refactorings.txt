@@ -23,6 +23,14 @@ My solution was the following:
 I should add that prior to implementing this solution, I tested git diff --no-index command by copying the same output to 2 different files and changing 1 line of text in the 2nd file.
 Next, I ran the git diff --no-index command. After this point I undid my change to the 2nd file, and re-performed the diff to ensure that it would show a change.
 	
-I attempted to do additional refactoring on the newly created methods, however when applying the diff --no-index command I noticed differences. It appeared that the information was the same, but perhaps in a different order. (since the files were of the same number of lines). As a result I abandoned this exercise and reverted to a previous source control state. 
+I attempted to do additional refactoring on the newly created methods, however when applying the diff --no-index command I noticed differences. It appeared that the information was the same, 
+ perhaps in a different order. (since the files were of the same number of lines). As a result I abandoned this exercise and reverted to a previous source control state. 
 
 There are many more refactorings that could be done to this code. However, the time contraints I am under force me to stop at this point.
+
+
+
+*** ammendment. I did some additional refactoring. The original code I wrote did not handle things correctly. I kept most (90-95%) of the original code, but modified some of it. 
+It now handles everything correctly to the best of my knowledge.
+
+

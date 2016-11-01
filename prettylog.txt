@@ -1,3 +1,4 @@
+7b093250b84f45cc00863f5671810483b8c9fe3a added unit tests, refactoring, changed methods such that arrays, recursion is functional
 5fc07f8d31c6e7126c932d97a6e53653b79d4eac Adding Refactorings document
 a1b070375cefe790ed7b6982ad58ae77a7dd6cd2 Added Refactoring description, comments
 e2276a1bc7006c7bebe7ae6554be5aea93785a71 Refactoring, extract method within getClassInfo()

@@ -1,5 +1,5 @@
-Script started on Mon 31 Oct 2016 04:18:04 PM MDT
-]777;notify;Command completed;exit]0;msimiste@zone18-ed:~/Desktop/CPSC501/Assignment2/A2/src]7;file://zone18-ed/home/ugd/msimiste/Desktop/CPSC501/Assignment2/A2/src[msimiste@zone18-ed src]$ java introspection.Asst2TestDriver introspection/[K.Inspe ctor true
+Script started on Mon 31 Oct 2016 09:15:16 PM MDT
+]777;notify;Command completed;cp -r unitTests/*.* ~/Desktop/CPSC501/A2Submit/]0;msimiste@zone07-wc:~/Desktop/CPSC501/Assignment2/A2/src]7;file://zone07-wc/home/ugd/msimiste/Desktop/CPSC501/Assignment2/A2/src[msimiste@zone07-wc src]$ cp -r unitTests/*.* ~/Desktop/CPSC501/A2Submit/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cman cp[Kcp -r unitTests/*.* ~/Desktop/CPSC501/A2Submit/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcp -r unitTests/*.* ~/Desktop/CPSC501/A2Submit/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cman cp[K[4Plscp script.txt ~/Desktop/CPSC501/A2Submit/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kman cpcp -r unitTests/*.* ~/Desktop/CPSC501/A2Submit/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cman cp[K[K[K[K[K[K[Kjava introspection.Asst2TestDriver introspection/[K.Inspe ctor true
 Loading object inspector: introspection.Inspector
 ======================================================
 Running Test: ClassA
@@ -90,9 +90,346 @@ Method 5 is setVal
 		arg0	int
 	setVal has the following modifiers: public
 -------------------------------------------
+Class Name: java.lang.Object
+Class Simple Name: Object
+Immediate Superclass: null
+*******************************************
+java.lang.Object implements 0 interfaces
+*******************************************
+-------------------------------------------
+-------------------------------------------
+*******************************************
+*******************************************
+java.lang.Object declares 0 Fields
+-------------------------------------------
+java.lang.Object has 1 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is java.lang.Object
+-------------------------------------------
+	java.lang.Object requires: 0 parameters
+	java.lang.Object has the following modifiers: public
+-------------------------------------------
+*******************************************
+java.lang.Object declares 12 Methods
+*******************************************
+Method 1 is finalize
+-------------------------------------------
+	finalize return type: void
+	finalize throws: 1 exceptions
+		java.lang.Throwable
+	finalize requires: 0 parameters
+	finalize has the following modifiers: protected
+-------------------------------------------
+Method 2 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 2 parameters
+		arg0	long
+		arg1	int
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 3 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 1 parameters
+		arg0	long
+	wait has the following modifiers: public final native
+-------------------------------------------
+Method 4 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 0 parameters
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 5 is equals
+-------------------------------------------
+	equals return type: boolean
+	equals throws: 0 exceptions
+	equals requires: 1 parameters
+		arg0	java.lang.Object
+	equals has the following modifiers: public
+-------------------------------------------
+Method 6 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 7 is hashCode
+-------------------------------------------
+	hashCode return type: int
+	hashCode throws: 0 exceptions
+	hashCode requires: 0 parameters
+	hashCode has the following modifiers: public native
+-------------------------------------------
+Method 8 is getClass
+-------------------------------------------
+	getClass return type: java.lang.Class
+	getClass throws: 0 exceptions
+	getClass requires: 0 parameters
+	getClass has the following modifiers: public final native
+-------------------------------------------
+Method 9 is clone
+-------------------------------------------
+	clone return type: java.lang.Object
+	clone throws: 1 exceptions
+		java.lang.CloneNotSupportedException
+	clone requires: 0 parameters
+	clone has the following modifiers: protected native
+-------------------------------------------
+Method 10 is registerNatives
+-------------------------------------------
+	registerNatives return type: void
+	registerNatives throws: 0 exceptions
+	registerNatives requires: 0 parameters
+	registerNatives has the following modifiers: private static native
+-------------------------------------------
+Method 11 is notify
+-------------------------------------------
+	notify return type: void
+	notify throws: 0 exceptions
+	notify requires: 0 parameters
+	notify has the following modifiers: public final native
+-------------------------------------------
+Method 12 is notifyAll
+-------------------------------------------
+	notifyAll return type: void
+	notifyAll throws: 0 exceptions
+	notifyAll requires: 0 parameters
+	notifyAll has the following modifiers: public final native
+-------------------------------------------
 ======================================================
 ======================================================
 Running Test: ClassA
+Class Name: introspection.ClassA
+Class Simple Name: ClassA
+Immediate Superclass: java.lang.Object
+*******************************************
+introspection.ClassA implements 2 interfaces
+*******************************************
+-------------------------------------------
+	Interface  1 java.io.Serializable
+	Interface  2 java.lang.Runnable
+-------------------------------------------
+*******************************************
+*******************************************
+introspection.ClassA declares 3 Fields
+-------------------------------------------
+Field 1
+	Name: val
+	Type: java.lang.Integer
+	Value: 12
+	Modifiers: public final
+-------------------------------------------
+Field 2
+	Name: val2
+	Type: java.lang.Double
+	Value: 0.2
+	Modifiers: public final
+-------------------------------------------
+Field 3
+	Name: val3
+	Type: java.lang.Boolean
+	Value: true
+	Modifiers: public final
+-------------------------------------------
+introspection.ClassA has 2 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is introspection.ClassA
+-------------------------------------------
+	introspection.ClassA requires: 0 parameters
+	introspection.ClassA has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 2 is introspection.ClassA
+-------------------------------------------
+	introspection.ClassA requires: 1 parameters
+		arg0	int
+	introspection.ClassA has the following modifiers: public
+-------------------------------------------
+*******************************************
+introspection.ClassA declares 5 Methods
+*******************************************
+Method 1 is getVal
+-------------------------------------------
+	getVal return type: int
+	getVal throws: 0 exceptions
+	getVal requires: 0 parameters
+	getVal has the following modifiers: public
+-------------------------------------------
+Method 2 is printSomething
+-------------------------------------------
+	printSomething return type: void
+	printSomething throws: 0 exceptions
+	printSomething requires: 0 parameters
+	printSomething has the following modifiers: private
+-------------------------------------------
+Method 3 is run
+-------------------------------------------
+	run return type: void
+	run throws: 0 exceptions
+	run requires: 0 parameters
+	run has the following modifiers: public
+-------------------------------------------
+Method 4 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 5 is setVal
+-------------------------------------------
+	setVal return type: void
+	setVal throws: 1 exceptions
+		java.lang.Exception
+	setVal requires: 1 parameters
+		arg0	int
+	setVal has the following modifiers: public
+-------------------------------------------
+Class Name: java.lang.Object
+Class Simple Name: Object
+Immediate Superclass: null
+*******************************************
+java.lang.Object implements 0 interfaces
+*******************************************
+-------------------------------------------
+-------------------------------------------
+*******************************************
+*******************************************
+java.lang.Object declares 0 Fields
+-------------------------------------------
+java.lang.Object has 1 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is java.lang.Object
+-------------------------------------------
+	java.lang.Object requires: 0 parameters
+	java.lang.Object has the following modifiers: public
+-------------------------------------------
+*******************************************
+java.lang.Object declares 12 Methods
+*******************************************
+Method 1 is finalize
+-------------------------------------------
+	finalize return type: void
+	finalize throws: 1 exceptions
+		java.lang.Throwable
+	finalize requires: 0 parameters
+	finalize has the following modifiers: protected
+-------------------------------------------
+Method 2 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 2 parameters
+		arg0	long
+		arg1	int
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 3 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 1 parameters
+		arg0	long
+	wait has the following modifiers: public final native
+-------------------------------------------
+Method 4 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 0 parameters
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 5 is equals
+-------------------------------------------
+	equals return type: boolean
+	equals throws: 0 exceptions
+	equals requires: 1 parameters
+		arg0	java.lang.Object
+	equals has the following modifiers: public
+-------------------------------------------
+Method 6 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 7 is hashCode
+-------------------------------------------
+	hashCode return type: int
+	hashCode throws: 0 exceptions
+	hashCode requires: 0 parameters
+	hashCode has the following modifiers: public native
+-------------------------------------------
+Method 8 is getClass
+-------------------------------------------
+	getClass return type: java.lang.Class
+	getClass throws: 0 exceptions
+	getClass requires: 0 parameters
+	getClass has the following modifiers: public final native
+-------------------------------------------
+Method 9 is clone
+-------------------------------------------
+	clone return type: java.lang.Object
+	clone throws: 1 exceptions
+		java.lang.CloneNotSupportedException
+	clone requires: 0 parameters
+	clone has the following modifiers: protected native
+-------------------------------------------
+Method 10 is registerNatives
+-------------------------------------------
+	registerNatives return type: void
+	registerNatives throws: 0 exceptions
+	registerNatives requires: 0 parameters
+	registerNatives has the following modifiers: private static native
+-------------------------------------------
+Method 11 is notify
+-------------------------------------------
+	notify return type: void
+	notify throws: 0 exceptions
+	notify requires: 0 parameters
+	notify has the following modifiers: public final native
+-------------------------------------------
+Method 12 is notifyAll
+-------------------------------------------
+	notifyAll return type: void
+	notifyAll throws: 0 exceptions
+	notifyAll requires: 0 parameters
+	notifyAll has the following modifiers: public final native
+-------------------------------------------
+======================================================
+======================================================
+Running Test: ClassB
+Class Name: introspection.ClassB
+Class Simple Name: ClassB
+Immediate Superclass: introspection.ClassC
+*******************************************
+introspection.ClassB implements 1 interfaces
+*******************************************
+-------------------------------------------
+	Interface  1 java.lang.Runnable
+-------------------------------------------
+*******************************************
+*******************************************
+introspection.ClassB declares 3 Fields
+-------------------------------------------
+Field 1
+	Name: val
 Class Name: introspection.ClassA
 Class Simple Name: ClassA
 Immediate Superclass: java.lang.Object
@@ -180,33 +517,334 @@ Method 5 is setVal
 		arg0	int
 	setVal has the following modifiers: public
 -------------------------------------------
-======================================================
-======================================================
-Running Test: ClassB
-Class Name: introspection.ClassB
-Class Simple Name: ClassB
-Immediate Superclass: introspection.ClassC
+Class Name: java.lang.Object
+Class Simple Name: Object
+Immediate Superclass: null
 *******************************************
-introspection.ClassB implements 1 interfaces
+java.lang.Object implements 0 interfaces
 *******************************************
 -------------------------------------------
-	Interface  1 java.lang.Runnable
 -------------------------------------------
 *******************************************
 *******************************************
-introspection.ClassB declares 3 Fields
+java.lang.Object declares 0 Fields
 -------------------------------------------
-Field 1
-	Name: val
-	Type: class introspection.ClassA	Value: class java.lang.reflect.Field
+java.lang.Object has 1 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is java.lang.Object
+-------------------------------------------
+	java.lang.Object requires: 0 parameters
+	java.lang.Object has the following modifiers: public
+-------------------------------------------
+*******************************************
+java.lang.Object declares 12 Methods
+*******************************************
+Method 1 is finalize
+-------------------------------------------
+	finalize return type: void
+	finalize throws: 1 exceptions
+		java.lang.Throwable
+	finalize requires: 0 parameters
+	finalize has the following modifiers: protected
+-------------------------------------------
+Method 2 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 2 parameters
+		arg0	long
+		arg1	int
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 3 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 1 parameters
+		arg0	long
+	wait has the following modifiers: public final native
+-------------------------------------------
+Method 4 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 0 parameters
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 5 is equals
+-------------------------------------------
+	equals return type: boolean
+	equals throws: 0 exceptions
+	equals requires: 1 parameters
+		arg0	java.lang.Object
+	equals has the following modifiers: public
+-------------------------------------------
+Method 6 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 7 is hashCode
+-------------------------------------------
+	hashCode return type: int
+	hashCode throws: 0 exceptions
+	hashCode requires: 0 parameters
+	hashCode has the following modifiers: public native
+-------------------------------------------
+Method 8 is getClass
+-------------------------------------------
+	getClass return type: java.lang.Class
+	getClass throws: 0 exceptions
+	getClass requires: 0 parameters
+	getClass has the following modifiers: public final native
+-------------------------------------------
+Method 9 is clone
+-------------------------------------------
+	clone return type: java.lang.Object
+	clone throws: 1 exceptions
+		java.lang.CloneNotSupportedException
+	clone requires: 0 parameters
+	clone has the following modifiers: protected native
+-------------------------------------------
+Method 10 is registerNatives
+-------------------------------------------
+	registerNatives return type: void
+	registerNatives throws: 0 exceptions
+	registerNatives requires: 0 parameters
+	registerNatives has the following modifiers: private static native
+-------------------------------------------
+Method 11 is notify
+-------------------------------------------
+	notify return type: void
+	notify throws: 0 exceptions
+	notify requires: 0 parameters
+	notify has the following modifiers: public final native
+-------------------------------------------
+Method 12 is notifyAll
+-------------------------------------------
+	notifyAll return type: void
+	notifyAll throws: 0 exceptions
+	notifyAll requires: 0 parameters
+	notifyAll has the following modifiers: public final native
+-------------------------------------------
+	Type: class introspection.ClassA	Value: ClassA
 -------------------------------------------
 Field 2
 	Name: val2
-	Type: class introspection.ClassA	Value: class java.lang.reflect.Field
+Class Name: introspection.ClassA
+Class Simple Name: ClassA
+Immediate Superclass: java.lang.Object
+*******************************************
+introspection.ClassA implements 2 interfaces
+*******************************************
+-------------------------------------------
+	Interface  1 java.io.Serializable
+	Interface  2 java.lang.Runnable
+-------------------------------------------
+*******************************************
+*******************************************
+introspection.ClassA declares 3 Fields
+-------------------------------------------
+Field 1
+	Name: val
+	Type: java.lang.Integer
+	Value: 12
+	Modifiers: public final
+-------------------------------------------
+Field 2
+	Name: val2
+	Type: java.lang.Double
+	Value: 0.2
+	Modifiers: public final
 -------------------------------------------
 Field 3
 	Name: val3
-	Type: class introspection.ClassA	Value: class java.lang.reflect.Field
+	Type: java.lang.Boolean
+	Value: true
+	Modifiers: public final
+-------------------------------------------
+introspection.ClassA has 2 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is introspection.ClassA
+-------------------------------------------
+	introspection.ClassA requires: 0 parameters
+	introspection.ClassA has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 2 is introspection.ClassA
+-------------------------------------------
+	introspection.ClassA requires: 1 parameters
+		arg0	int
+	introspection.ClassA has the following modifiers: public
+-------------------------------------------
+*******************************************
+introspection.ClassA declares 5 Methods
+*******************************************
+Method 1 is getVal
+-------------------------------------------
+	getVal return type: int
+	getVal throws: 0 exceptions
+	getVal requires: 0 parameters
+	getVal has the following modifiers: public
+-------------------------------------------
+Method 2 is printSomething
+-------------------------------------------
+	printSomething return type: void
+	printSomething throws: 0 exceptions
+	printSomething requires: 0 parameters
+	printSomething has the following modifiers: private
+-------------------------------------------
+Method 3 is run
+-------------------------------------------
+	run return type: void
+	run throws: 0 exceptions
+	run requires: 0 parameters
+	run has the following modifiers: public
+-------------------------------------------
+Method 4 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 5 is setVal
+-------------------------------------------
+	setVal return type: void
+	setVal throws: 1 exceptions
+		java.lang.Exception
+	setVal requires: 1 parameters
+		arg0	int
+	setVal has the following modifiers: public
+-------------------------------------------
+Class Name: java.lang.Object
+Class Simple Name: Object
+Immediate Superclass: null
+*******************************************
+java.lang.Object implements 0 interfaces
+*******************************************
+-------------------------------------------
+-------------------------------------------
+*******************************************
+*******************************************
+java.lang.Object declares 0 Fields
+-------------------------------------------
+java.lang.Object has 1 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is java.lang.Object
+-------------------------------------------
+	java.lang.Object requires: 0 parameters
+	java.lang.Object has the following modifiers: public
+-------------------------------------------
+*******************************************
+java.lang.Object declares 12 Methods
+*******************************************
+Method 1 is finalize
+-------------------------------------------
+	finalize return type: void
+	finalize throws: 1 exceptions
+		java.lang.Throwable
+	finalize requires: 0 parameters
+	finalize has the following modifiers: protected
+-------------------------------------------
+Method 2 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 2 parameters
+		arg0	long
+		arg1	int
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 3 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 1 parameters
+		arg0	long
+	wait has the following modifiers: public final native
+-------------------------------------------
+Method 4 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 0 parameters
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 5 is equals
+-------------------------------------------
+	equals return type: boolean
+	equals throws: 0 exceptions
+	equals requires: 1 parameters
+		arg0	java.lang.Object
+	equals has the following modifiers: public
+-------------------------------------------
+Method 6 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 7 is hashCode
+-------------------------------------------
+	hashCode return type: int
+	hashCode throws: 0 exceptions
+	hashCode requires: 0 parameters
+	hashCode has the following modifiers: public native
+-------------------------------------------
+Method 8 is getClass
+-------------------------------------------
+	getClass return type: java.lang.Class
+	getClass throws: 0 exceptions
+	getClass requires: 0 parameters
+	getClass has the following modifiers: public final native
+-------------------------------------------
+Method 9 is clone
+-------------------------------------------
+	clone return type: java.lang.Object
+	clone throws: 1 exceptions
+		java.lang.CloneNotSupportedException
+	clone requires: 0 parameters
+	clone has the following modifiers: protected native
+-------------------------------------------
+Method 10 is registerNatives
+-------------------------------------------
+	registerNatives return type: void
+	registerNatives throws: 0 exceptions
+	registerNatives requires: 0 parameters
+	registerNatives has the following modifiers: private static native
+-------------------------------------------
+Method 11 is notify
+-------------------------------------------
+	notify return type: void
+	notify throws: 0 exceptions
+	notify requires: 0 parameters
+	notify has the following modifiers: public final native
+-------------------------------------------
+Method 12 is notifyAll
+-------------------------------------------
+	notifyAll return type: void
+	notifyAll throws: 0 exceptions
+	notifyAll requires: 0 parameters
+	notifyAll has the following modifiers: public final native
+-------------------------------------------
+	Type: class introspection.ClassA	Value: ClassA
+-------------------------------------------
+Field 3
+	Name: val3
+	Type: class introspection.ClassA	Value: null
 -------------------------------------------
 introspection.ClassB has 1 constructors 
 *******************************************
@@ -241,9 +879,6 @@ Method 3 is toString
 	toString requires: 0 parameters
 	toString has the following modifiers: public
 -------------------------------------------
-======================================================
-======================================================
-Running Test: ClassD
 Class Name: introspection.ClassD
 Class Simple Name: ClassD
 Immediate Superclass: java.lang.Object
@@ -258,11 +893,214 @@ introspection.ClassD declares 4 Fields
 -------------------------------------------
 Field 1
 	Name: val
-	Type: class introspection.ClassA	Value: class java.lang.reflect.Field
+Class Name: introspection.ClassA
+Class Simple Name: ClassA
+Immediate Superclass: java.lang.Object
+*******************************************
+introspection.ClassA implements 2 interfaces
+*******************************************
+-------------------------------------------
+	Interface  1 java.io.Serializable
+	Interface  2 java.lang.Runnable
+-------------------------------------------
+*******************************************
+*******************************************
+introspection.ClassA declares 3 Fields
+-------------------------------------------
+Field 1
+	Name: val
+	Type: java.lang.Integer
+	Value: 17
+	Modifiers: public final
 -------------------------------------------
 Field 2
 	Name: val2
-	Type: class introspection.ClassA	Value: class java.lang.reflect.Field
+	Type: java.lang.Double
+	Value: 0.2
+	Modifiers: public final
+-------------------------------------------
+Field 3
+	Name: val3
+	Type: java.lang.Boolean
+	Value: true
+	Modifiers: public final
+-------------------------------------------
+introspection.ClassA has 2 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is introspection.ClassA
+-------------------------------------------
+	introspection.ClassA requires: 0 parameters
+	introspection.ClassA has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 2 is introspection.ClassA
+-------------------------------------------
+	introspection.ClassA requires: 1 parameters
+		arg0	int
+	introspection.ClassA has the following modifiers: public
+-------------------------------------------
+*******************************************
+introspection.ClassA declares 5 Methods
+*******************************************
+Method 1 is getVal
+-------------------------------------------
+	getVal return type: int
+	getVal throws: 0 exceptions
+	getVal requires: 0 parameters
+	getVal has the following modifiers: public
+-------------------------------------------
+Method 2 is printSomething
+-------------------------------------------
+	printSomething return type: void
+	printSomething throws: 0 exceptions
+	printSomething requires: 0 parameters
+	printSomething has the following modifiers: private
+-------------------------------------------
+Method 3 is run
+-------------------------------------------
+	run return type: void
+	run throws: 0 exceptions
+	run requires: 0 parameters
+	run has the following modifiers: public
+-------------------------------------------
+Method 4 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 5 is setVal
+-------------------------------------------
+	setVal return type: void
+	setVal throws: 1 exceptions
+		java.lang.Exception
+	setVal requires: 1 parameters
+		arg0	int
+	setVal has the following modifiers: public
+-------------------------------------------
+Class Name: java.lang.Object
+Class Simple Name: Object
+Immediate Superclass: null
+*******************************************
+java.lang.Object implements 0 interfaces
+*******************************************
+-------------------------------------------
+-------------------------------------------
+*******************************************
+*******************************************
+java.lang.Object declares 0 Fields
+-------------------------------------------
+java.lang.Object has 1 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is java.lang.Object
+-------------------------------------------
+	java.lang.Object requires: 0 parameters
+	java.lang.Object has the following modifiers: public
+-------------------------------------------
+*******************************************
+java.lang.Object declares 12 Methods
+*******************************************
+Method 1 is finalize
+-------------------------------------------
+	finalize return type: void
+	finalize throws: 1 exceptions
+		java.lang.Throwable
+	finalize requires: 0 parameters
+	finalize has the following modifiers: protected
+-------------------------------------------
+Method 2 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 2 parameters
+		arg0	long
+		arg1	int
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 3 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 1 parameters
+		arg0	long
+	wait has the following modifiers: public final native
+-------------------------------------------
+Method 4 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 0 parameters
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 5 is equals
+-------------------------------------------
+	equals return type: boolean
+	equals throws: 0 exceptions
+	equals requires: 1 parameters
+		arg0	java.lang.Object
+	equals has the following modifiers: public
+-------------------------------------------
+Method 6 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 7 is hashCode
+-------------------------------------------
+	hashCode return type: int
+	hashCode throws: 0 exceptions
+	hashCode requires: 0 parameters
+	hashCode has the following modifiers: public native
+-------------------------------------------
+Method 8 is getClass
+-------------------------------------------
+	getClass return type: java.lang.Class
+	getClass throws: 0 exceptions
+	getClass requires: 0 parameters
+	getClass has the following modifiers: public final native
+-------------------------------------------
+Method 9 is clone
+-------------------------------------------
+	clone return type: java.lang.Object
+	clone throws: 1 exceptions
+		java.lang.CloneNotSupportedException
+	clone requires: 0 parameters
+	clone has the following modifiers: protected native
+-------------------------------------------
+Method 10 is registerNatives
+-------------------------------------------
+	registerNatives return type: void
+	registerNatives throws: 0 exceptions
+	registerNatives requires: 0 parameters
+	registerNatives has the following modifiers: private static native
+-------------------------------------------
+Method 11 is notify
+-------------------------------------------
+	notify return type: void
+	notify throws: 0 exceptions
+	notify requires: 0 parameters
+	notify has the following modifiers: public final native
+-------------------------------------------
+Method 12 is notifyAll
+-------------------------------------------
+	notifyAll return type: void
+	notifyAll throws: 0 exceptions
+	notifyAll requires: 0 parameters
+	notifyAll has the following modifiers: public final native
+-------------------------------------------
+	Type: class introspection.ClassA	Value: ClassA
+-------------------------------------------
+Field 2
+	Name: val2
+	Type: class introspection.ClassA	Value: null
 -------------------------------------------
 Field 3
 	Name: val3
@@ -272,7 +1110,7 @@ Field 3
 -------------------------------------------
 Field 4
 	Name: vallarray
-	Type: introspection.ClassA[][]
+	Type: class introspection.ClassA
 	Length: 10
 		Value: null
 		Value: null
@@ -318,6 +1156,830 @@ Method 2 is toString
 	toString requires: 0 parameters
 	toString has the following modifiers: public
 -------------------------------------------
+Class Name: introspection.ClassC
+Class Simple Name: ClassC
+Immediate Superclass: introspection.ClassD
+*******************************************
+introspection.ClassC implements 1 interfaces
+*******************************************
+-------------------------------------------
+	Interface  1 introspection.InterfaceA
+-------------------------------------------
+*******************************************
+*******************************************
+introspection.ClassC declares 3 Fields
+-------------------------------------------
+Field 1
+	Name: val2
+Class Name: introspection.ClassA
+Class Simple Name: ClassA
+Immediate Superclass: java.lang.Object
+*******************************************
+introspection.ClassA implements 2 interfaces
+*******************************************
+-------------------------------------------
+	Interface  1 java.io.Serializable
+	Interface  2 java.lang.Runnable
+-------------------------------------------
+*******************************************
+*******************************************
+introspection.ClassA declares 3 Fields
+-------------------------------------------
+Field 1
+	Name: val
+	Type: java.lang.Integer
+	Value: 100
+	Modifiers: public final
+-------------------------------------------
+Field 2
+	Name: val2
+	Type: java.lang.Double
+	Value: 0.2
+	Modifiers: public final
+-------------------------------------------
+Field 3
+	Name: val3
+	Type: java.lang.Boolean
+	Value: true
+	Modifiers: public final
+-------------------------------------------
+introspection.ClassA has 2 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is introspection.ClassA
+-------------------------------------------
+	introspection.ClassA requires: 0 parameters
+	introspection.ClassA has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 2 is introspection.ClassA
+-------------------------------------------
+	introspection.ClassA requires: 1 parameters
+		arg0	int
+	introspection.ClassA has the following modifiers: public
+-------------------------------------------
+*******************************************
+introspection.ClassA declares 5 Methods
+*******************************************
+Method 1 is getVal
+-------------------------------------------
+	getVal return type: int
+	getVal throws: 0 exceptions
+	getVal requires: 0 parameters
+	getVal has the following modifiers: public
+-------------------------------------------
+Method 2 is printSomething
+-------------------------------------------
+	printSomething return type: void
+	printSomething throws: 0 exceptions
+	printSomething requires: 0 parameters
+	printSomething has the following modifiers: private
+-------------------------------------------
+Method 3 is run
+-------------------------------------------
+	run return type: void
+	run throws: 0 exceptions
+	run requires: 0 parameters
+	run has the following modifiers: public
+-------------------------------------------
+Method 4 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 5 is setVal
+-------------------------------------------
+	setVal return type: void
+	setVal throws: 1 exceptions
+		java.lang.Exception
+	setVal requires: 1 parameters
+		arg0	int
+	setVal has the following modifiers: public
+-------------------------------------------
+Class Name: java.lang.Object
+Class Simple Name: Object
+Immediate Superclass: null
+*******************************************
+java.lang.Object implements 0 interfaces
+*******************************************
+-------------------------------------------
+-------------------------------------------
+*******************************************
+*******************************************
+java.lang.Object declares 0 Fields
+-------------------------------------------
+java.lang.Object has 1 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is java.lang.Object
+-------------------------------------------
+	java.lang.Object requires: 0 parameters
+	java.lang.Object has the following modifiers: public
+-------------------------------------------
+*******************************************
+java.lang.Object declares 12 Methods
+*******************************************
+Method 1 is finalize
+-------------------------------------------
+	finalize return type: void
+	finalize throws: 1 exceptions
+		java.lang.Throwable
+	finalize requires: 0 parameters
+	finalize has the following modifiers: protected
+-------------------------------------------
+Method 2 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 2 parameters
+		arg0	long
+		arg1	int
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 3 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 1 parameters
+		arg0	long
+	wait has the following modifiers: public final native
+-------------------------------------------
+Method 4 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 0 parameters
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 5 is equals
+-------------------------------------------
+	equals return type: boolean
+	equals throws: 0 exceptions
+	equals requires: 1 parameters
+		arg0	java.lang.Object
+	equals has the following modifiers: public
+-------------------------------------------
+Method 6 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 7 is hashCode
+-------------------------------------------
+	hashCode return type: int
+	hashCode throws: 0 exceptions
+	hashCode requires: 0 parameters
+	hashCode has the following modifiers: public native
+-------------------------------------------
+Method 8 is getClass
+-------------------------------------------
+	getClass return type: java.lang.Class
+	getClass throws: 0 exceptions
+	getClass requires: 0 parameters
+	getClass has the following modifiers: public final native
+-------------------------------------------
+Method 9 is clone
+-------------------------------------------
+	clone return type: java.lang.Object
+	clone throws: 1 exceptions
+		java.lang.CloneNotSupportedException
+	clone requires: 0 parameters
+	clone has the following modifiers: protected native
+-------------------------------------------
+Method 10 is registerNatives
+-------------------------------------------
+	registerNatives return type: void
+	registerNatives throws: 0 exceptions
+	registerNatives requires: 0 parameters
+	registerNatives has the following modifiers: private static native
+-------------------------------------------
+Method 11 is notify
+-------------------------------------------
+	notify return type: void
+	notify throws: 0 exceptions
+	notify requires: 0 parameters
+	notify has the following modifiers: public final native
+-------------------------------------------
+Method 12 is notifyAll
+-------------------------------------------
+	notifyAll return type: void
+	notifyAll throws: 0 exceptions
+	notifyAll requires: 0 parameters
+	notifyAll has the following modifiers: public final native
+-------------------------------------------
+	Type: class introspection.ClassA	Value: ClassA
+-------------------------------------------
+Field 2
+	Name: val3
+Class Name: introspection.ClassA
+Class Simple Name: ClassA
+Immediate Superclass: java.lang.Object
+*******************************************
+introspection.ClassA implements 2 interfaces
+*******************************************
+-------------------------------------------
+	Interface  1 java.io.Serializable
+	Interface  2 java.lang.Runnable
+-------------------------------------------
+*******************************************
+*******************************************
+introspection.ClassA declares 3 Fields
+-------------------------------------------
+Field 1
+	Name: val
+	Type: java.lang.Integer
+	Value: 2
+	Modifiers: public final
+-------------------------------------------
+Field 2
+	Name: val2
+	Type: java.lang.Double
+	Value: 0.2
+	Modifiers: public final
+-------------------------------------------
+Field 3
+	Name: val3
+	Type: java.lang.Boolean
+	Value: true
+	Modifiers: public final
+-------------------------------------------
+introspection.ClassA has 2 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is introspection.ClassA
+-------------------------------------------
+	introspection.ClassA requires: 0 parameters
+	introspection.ClassA has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 2 is introspection.ClassA
+-------------------------------------------
+	introspection.ClassA requires: 1 parameters
+		arg0	int
+	introspection.ClassA has the following modifiers: public
+-------------------------------------------
+*******************************************
+introspection.ClassA declares 5 Methods
+*******************************************
+Method 1 is getVal
+-------------------------------------------
+	getVal return type: int
+	getVal throws: 0 exceptions
+	getVal requires: 0 parameters
+	getVal has the following modifiers: public
+-------------------------------------------
+Method 2 is printSomething
+-------------------------------------------
+	printSomething return type: void
+	printSomething throws: 0 exceptions
+	printSomething requires: 0 parameters
+	printSomething has the following modifiers: private
+-------------------------------------------
+Method 3 is run
+-------------------------------------------
+	run return type: void
+	run throws: 0 exceptions
+	run requires: 0 parameters
+	run has the following modifiers: public
+-------------------------------------------
+Method 4 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 5 is setVal
+-------------------------------------------
+	setVal return type: void
+	setVal throws: 1 exceptions
+		java.lang.Exception
+	setVal requires: 1 parameters
+		arg0	int
+	setVal has the following modifiers: public
+-------------------------------------------
+Class Name: java.lang.Object
+Class Simple Name: Object
+Immediate Superclass: null
+*******************************************
+java.lang.Object implements 0 interfaces
+*******************************************
+-------------------------------------------
+-------------------------------------------
+*******************************************
+*******************************************
+java.lang.Object declares 0 Fields
+-------------------------------------------
+java.lang.Object has 1 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is java.lang.Object
+-------------------------------------------
+	java.lang.Object requires: 0 parameters
+	java.lang.Object has the following modifiers: public
+-------------------------------------------
+*******************************************
+java.lang.Object declares 12 Methods
+*******************************************
+Method 1 is finalize
+-------------------------------------------
+	finalize return type: void
+	finalize throws: 1 exceptions
+		java.lang.Throwable
+	finalize requires: 0 parameters
+	finalize has the following modifiers: protected
+-------------------------------------------
+Method 2 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 2 parameters
+		arg0	long
+		arg1	int
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 3 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 1 parameters
+		arg0	long
+	wait has the following modifiers: public final native
+-------------------------------------------
+Method 4 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 0 parameters
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 5 is equals
+-------------------------------------------
+	equals return type: boolean
+	equals throws: 0 exceptions
+	equals requires: 1 parameters
+		arg0	java.lang.Object
+	equals has the following modifiers: public
+-------------------------------------------
+Method 6 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 7 is hashCode
+-------------------------------------------
+	hashCode return type: int
+	hashCode throws: 0 exceptions
+	hashCode requires: 0 parameters
+	hashCode has the following modifiers: public native
+-------------------------------------------
+Method 8 is getClass
+-------------------------------------------
+	getClass return type: java.lang.Class
+	getClass throws: 0 exceptions
+	getClass requires: 0 parameters
+	getClass has the following modifiers: public final native
+-------------------------------------------
+Method 9 is clone
+-------------------------------------------
+	clone return type: java.lang.Object
+	clone throws: 1 exceptions
+		java.lang.CloneNotSupportedException
+	clone requires: 0 parameters
+	clone has the following modifiers: protected native
+-------------------------------------------
+Method 10 is registerNatives
+-------------------------------------------
+	registerNatives return type: void
+	registerNatives throws: 0 exceptions
+	registerNatives requires: 0 parameters
+	registerNatives has the following modifiers: private static native
+-------------------------------------------
+Method 11 is notify
+-------------------------------------------
+	notify return type: void
+	notify throws: 0 exceptions
+	notify requires: 0 parameters
+	notify has the following modifiers: public final native
+-------------------------------------------
+Method 12 is notifyAll
+-------------------------------------------
+	notifyAll return type: void
+	notifyAll throws: 0 exceptions
+	notifyAll requires: 0 parameters
+	notifyAll has the following modifiers: public final native
+-------------------------------------------
+	Type: class introspection.ClassA	Value: ClassA
+-------------------------------------------
+Field 3
+	Name: val4
+Class Name: introspection.ClassA
+Class Simple Name: ClassA
+Immediate Superclass: java.lang.Object
+*******************************************
+introspection.ClassA implements 2 interfaces
+*******************************************
+-------------------------------------------
+	Interface  1 java.io.Serializable
+	Interface  2 java.lang.Runnable
+-------------------------------------------
+*******************************************
+*******************************************
+introspection.ClassA declares 3 Fields
+-------------------------------------------
+Field 1
+	Name: val
+	Type: java.lang.Integer
+	Value: 3
+	Modifiers: public final
+-------------------------------------------
+Field 2
+	Name: val2
+	Type: java.lang.Double
+	Value: 0.2
+	Modifiers: public final
+-------------------------------------------
+Field 3
+	Name: val3
+	Type: java.lang.Boolean
+	Value: true
+	Modifiers: public final
+-------------------------------------------
+introspection.ClassA has 2 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is introspection.ClassA
+-------------------------------------------
+	introspection.ClassA requires: 0 parameters
+	introspection.ClassA has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 2 is introspection.ClassA
+-------------------------------------------
+	introspection.ClassA requires: 1 parameters
+		arg0	int
+	introspection.ClassA has the following modifiers: public
+-------------------------------------------
+*******************************************
+introspection.ClassA declares 5 Methods
+*******************************************
+Method 1 is getVal
+-------------------------------------------
+	getVal return type: int
+	getVal throws: 0 exceptions
+	getVal requires: 0 parameters
+	getVal has the following modifiers: public
+-------------------------------------------
+Method 2 is printSomething
+-------------------------------------------
+	printSomething return type: void
+	printSomething throws: 0 exceptions
+	printSomething requires: 0 parameters
+	printSomething has the following modifiers: private
+-------------------------------------------
+Method 3 is run
+-------------------------------------------
+	run return type: void
+	run throws: 0 exceptions
+	run requires: 0 parameters
+	run has the following modifiers: public
+-------------------------------------------
+Method 4 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 5 is setVal
+-------------------------------------------
+	setVal return type: void
+	setVal throws: 1 exceptions
+		java.lang.Exception
+	setVal requires: 1 parameters
+		arg0	int
+	setVal has the following modifiers: public
+-------------------------------------------
+Class Name: java.lang.Object
+Class Simple Name: Object
+Immediate Superclass: null
+*******************************************
+java.lang.Object implements 0 interfaces
+*******************************************
+-------------------------------------------
+-------------------------------------------
+*******************************************
+*******************************************
+java.lang.Object declares 0 Fields
+-------------------------------------------
+java.lang.Object has 1 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is java.lang.Object
+-------------------------------------------
+	java.lang.Object requires: 0 parameters
+	java.lang.Object has the following modifiers: public
+-------------------------------------------
+*******************************************
+java.lang.Object declares 12 Methods
+*******************************************
+Method 1 is finalize
+-------------------------------------------
+	finalize return type: void
+	finalize throws: 1 exceptions
+		java.lang.Throwable
+	finalize requires: 0 parameters
+	finalize has the following modifiers: protected
+-------------------------------------------
+Method 2 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 2 parameters
+		arg0	long
+		arg1	int
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 3 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 1 parameters
+		arg0	long
+	wait has the following modifiers: public final native
+-------------------------------------------
+Method 4 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 0 parameters
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 5 is equals
+-------------------------------------------
+	equals return type: boolean
+	equals throws: 0 exceptions
+	equals requires: 1 parameters
+		arg0	java.lang.Object
+	equals has the following modifiers: public
+-------------------------------------------
+Method 6 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 7 is hashCode
+-------------------------------------------
+	hashCode return type: int
+	hashCode throws: 0 exceptions
+	hashCode requires: 0 parameters
+	hashCode has the following modifiers: public native
+-------------------------------------------
+Method 8 is getClass
+-------------------------------------------
+	getClass return type: java.lang.Class
+	getClass throws: 0 exceptions
+	getClass requires: 0 parameters
+	getClass has the following modifiers: public final native
+-------------------------------------------
+Method 9 is clone
+-------------------------------------------
+	clone return type: java.lang.Object
+	clone throws: 1 exceptions
+		java.lang.CloneNotSupportedException
+	clone requires: 0 parameters
+	clone has the following modifiers: protected native
+-------------------------------------------
+Method 10 is registerNatives
+-------------------------------------------
+	registerNatives return type: void
+	registerNatives throws: 0 exceptions
+	registerNatives requires: 0 parameters
+	registerNatives has the following modifiers: private static native
+-------------------------------------------
+Method 11 is notify
+-------------------------------------------
+	notify return type: void
+	notify throws: 0 exceptions
+	notify requires: 0 parameters
+	notify has the following modifiers: public final native
+-------------------------------------------
+Method 12 is notifyAll
+-------------------------------------------
+	notifyAll return type: void
+	notifyAll throws: 0 exceptions
+	notifyAll requires: 0 parameters
+	notifyAll has the following modifiers: public final native
+-------------------------------------------
+	Type: class introspection.ClassA	Value: ClassA
+-------------------------------------------
+introspection.ClassC has 2 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is introspection.ClassC
+-------------------------------------------
+	introspection.ClassC requires: 0 parameters
+	introspection.ClassC has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 2 is introspection.ClassC
+-------------------------------------------
+	introspection.ClassC requires: 2 parameters
+		arg0	int
+		arg1	int
+	introspection.ClassC has the following modifiers: public
+-------------------------------------------
+*******************************************
+introspection.ClassC declares 6 Methods
+*******************************************
+Method 1 is func3
+-------------------------------------------
+	func3 return type: void
+	func3 throws: 0 exceptions
+	func3 requires: 1 parameters
+		arg0	int
+	func3 has the following modifiers: public abstract
+-------------------------------------------
+Method 2 is func0
+-------------------------------------------
+	func0 return type: void
+	func0 throws: 1 exceptions
+		java.lang.Exception
+	func0 requires: 2 parameters
+		arg0	int
+		arg1	boolean
+	func0 has the following modifiers: public
+-------------------------------------------
+Method 3 is func1
+-------------------------------------------
+	func1 return type: void
+	func1 throws: 1 exceptions
+		java.lang.Exception
+	func1 requires: 4 parameters
+		arg0	int
+		arg1	double
+		arg2	boolean
+		arg3	java.lang.String
+	func1 has the following modifiers: public
+-------------------------------------------
+Method 4 is func2
+-------------------------------------------
+	func2 return type: int
+	func2 throws: 3 exceptions
+		java.lang.Exception
+		java.lang.ArithmeticException
+		java.lang.IllegalMonitorStateException
+	func2 requires: 1 parameters
+		arg0	java.lang.String
+	func2 has the following modifiers: public
+-------------------------------------------
+Method 5 is run
+-------------------------------------------
+	run return type: void
+	run throws: 0 exceptions
+	run requires: 0 parameters
+	run has the following modifiers: public
+-------------------------------------------
+Method 6 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Class Name: java.lang.Object
+Class Simple Name: Object
+Immediate Superclass: null
+*******************************************
+java.lang.Object implements 0 interfaces
+*******************************************
+-------------------------------------------
+-------------------------------------------
+*******************************************
+*******************************************
+java.lang.Object declares 0 Fields
+-------------------------------------------
+java.lang.Object has 1 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is java.lang.Object
+-------------------------------------------
+	java.lang.Object requires: 0 parameters
+	java.lang.Object has the following modifiers: public
+-------------------------------------------
+*******************************************
+java.lang.Object declares 12 Methods
+*******************************************
+Method 1 is finalize
+-------------------------------------------
+	finalize return type: void
+	finalize throws: 1 exceptions
+		java.lang.Throwable
+	finalize requires: 0 parameters
+	finalize has the following modifiers: protected
+-------------------------------------------
+Method 2 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 2 parameters
+		arg0	long
+		arg1	int
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 3 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 1 parameters
+		arg0	long
+	wait has the following modifiers: public final native
+-------------------------------------------
+Method 4 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 0 parameters
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 5 is equals
+-------------------------------------------
+	equals return type: boolean
+	equals throws: 0 exceptions
+	equals requires: 1 parameters
+		arg0	java.lang.Object
+	equals has the following modifiers: public
+-------------------------------------------
+Method 6 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 7 is hashCode
+-------------------------------------------
+	hashCode return type: int
+	hashCode throws: 0 exceptions
+	hashCode requires: 0 parameters
+	hashCode has the following modifiers: public native
+-------------------------------------------
+Method 8 is getClass
+-------------------------------------------
+	getClass return type: java.lang.Class
+	getClass throws: 0 exceptions
+	getClass requires: 0 parameters
+	getClass has the following modifiers: public final native
+-------------------------------------------
+Method 9 is clone
+-------------------------------------------
+	clone return type: java.lang.Object
+	clone throws: 1 exceptions
+		java.lang.CloneNotSupportedException
+	clone requires: 0 parameters
+	clone has the following modifiers: protected native
+-------------------------------------------
+Method 10 is registerNatives
+-------------------------------------------
+	registerNatives return type: void
+	registerNatives throws: 0 exceptions
+	registerNatives requires: 0 parameters
+	registerNatives has the following modifiers: private static native
+-------------------------------------------
+Method 11 is notify
+-------------------------------------------
+	notify return type: void
+	notify throws: 0 exceptions
+	notify requires: 0 parameters
+	notify has the following modifiers: public final native
+-------------------------------------------
+Method 12 is notifyAll
+-------------------------------------------
+	notifyAll return type: void
+	notifyAll throws: 0 exceptions
+	notifyAll requires: 0 parameters
+	notifyAll has the following modifiers: public final native
+-------------------------------------------
 ======================================================
 ======================================================
 Running Test: ClassD
@@ -335,21 +1997,224 @@ introspection.ClassD declares 4 Fields
 -------------------------------------------
 Field 1
 	Name: val
-	Type: class introspection.ClassA	Value: class java.lang.reflect.Field
+Class Name: introspection.ClassA
+Class Simple Name: ClassA
+Immediate Superclass: java.lang.Object
+*******************************************
+introspection.ClassA implements 2 interfaces
+*******************************************
+-------------------------------------------
+	Interface  1 java.io.Serializable
+	Interface  2 java.lang.Runnable
+-------------------------------------------
+*******************************************
+*******************************************
+introspection.ClassA declares 3 Fields
+-------------------------------------------
+Field 1
+	Name: val
+	Type: java.lang.Integer
+	Value: 17
+	Modifiers: public final
 -------------------------------------------
 Field 2
 	Name: val2
-	Type: class introspection.ClassA	Value: class java.lang.reflect.Field
+	Type: java.lang.Double
+	Value: 0.2
+	Modifiers: public final
+-------------------------------------------
+Field 3
+	Name: val3
+	Type: java.lang.Boolean
+	Value: true
+	Modifiers: public final
+-------------------------------------------
+introspection.ClassA has 2 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is introspection.ClassA
+-------------------------------------------
+	introspection.ClassA requires: 0 parameters
+	introspection.ClassA has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 2 is introspection.ClassA
+-------------------------------------------
+	introspection.ClassA requires: 1 parameters
+		arg0	int
+	introspection.ClassA has the following modifiers: public
+-------------------------------------------
+*******************************************
+introspection.ClassA declares 5 Methods
+*******************************************
+Method 1 is getVal
+-------------------------------------------
+	getVal return type: int
+	getVal throws: 0 exceptions
+	getVal requires: 0 parameters
+	getVal has the following modifiers: public
+-------------------------------------------
+Method 2 is printSomething
+-------------------------------------------
+	printSomething return type: void
+	printSomething throws: 0 exceptions
+	printSomething requires: 0 parameters
+	printSomething has the following modifiers: private
+-------------------------------------------
+Method 3 is run
+-------------------------------------------
+	run return type: void
+	run throws: 0 exceptions
+	run requires: 0 parameters
+	run has the following modifiers: public
+-------------------------------------------
+Method 4 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 5 is setVal
+-------------------------------------------
+	setVal return type: void
+	setVal throws: 1 exceptions
+		java.lang.Exception
+	setVal requires: 1 parameters
+		arg0	int
+	setVal has the following modifiers: public
+-------------------------------------------
+Class Name: java.lang.Object
+Class Simple Name: Object
+Immediate Superclass: null
+*******************************************
+java.lang.Object implements 0 interfaces
+*******************************************
+-------------------------------------------
+-------------------------------------------
+*******************************************
+*******************************************
+java.lang.Object declares 0 Fields
+-------------------------------------------
+java.lang.Object has 1 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is java.lang.Object
+-------------------------------------------
+	java.lang.Object requires: 0 parameters
+	java.lang.Object has the following modifiers: public
+-------------------------------------------
+*******************************************
+java.lang.Object declares 12 Methods
+*******************************************
+Method 1 is finalize
+-------------------------------------------
+	finalize return type: void
+	finalize throws: 1 exceptions
+		java.lang.Throwable
+	finalize requires: 0 parameters
+	finalize has the following modifiers: protected
+-------------------------------------------
+Method 2 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 2 parameters
+		arg0	long
+		arg1	int
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 3 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 1 parameters
+		arg0	long
+	wait has the following modifiers: public final native
+-------------------------------------------
+Method 4 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 0 parameters
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 5 is equals
+-------------------------------------------
+	equals return type: boolean
+	equals throws: 0 exceptions
+	equals requires: 1 parameters
+		arg0	java.lang.Object
+	equals has the following modifiers: public
+-------------------------------------------
+Method 6 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 7 is hashCode
+-------------------------------------------
+	hashCode return type: int
+	hashCode throws: 0 exceptions
+	hashCode requires: 0 parameters
+	hashCode has the following modifiers: public native
+-------------------------------------------
+Method 8 is getClass
+-------------------------------------------
+	getClass return type: java.lang.Class
+	getClass throws: 0 exceptions
+	getClass requires: 0 parameters
+	getClass has the following modifiers: public final native
+-------------------------------------------
+Method 9 is clone
+-------------------------------------------
+	clone return type: java.lang.Object
+	clone throws: 1 exceptions
+		java.lang.CloneNotSupportedException
+	clone requires: 0 parameters
+	clone has the following modifiers: protected native
+-------------------------------------------
+Method 10 is registerNatives
+-------------------------------------------
+	registerNatives return type: void
+	registerNatives throws: 0 exceptions
+	registerNatives requires: 0 parameters
+	registerNatives has the following modifiers: private static native
+-------------------------------------------
+Method 11 is notify
+-------------------------------------------
+	notify return type: void
+	notify throws: 0 exceptions
+	notify requires: 0 parameters
+	notify has the following modifiers: public final native
+-------------------------------------------
+Method 12 is notifyAll
+-------------------------------------------
+	notifyAll return type: void
+	notifyAll throws: 0 exceptions
+	notifyAll requires: 0 parameters
+	notifyAll has the following modifiers: public final native
+-------------------------------------------
+	Type: class introspection.ClassA	Value: ClassA
+-------------------------------------------
+Field 2
+	Name: val2
+	Type: class introspection.ClassA	Value: null
 -------------------------------------------
 Field 3
 	Name: val3
 	Type: java.lang.Integer
-	Value: 34
+	Value: 32
 	Modifiers: public final
 -------------------------------------------
 Field 4
 	Name: vallarray
-	Type: introspection.ClassA[][]
+	Type: class introspection.ClassA
 	Length: 10
 		Value: null
 		Value: null
@@ -394,13 +2259,795 @@ Method 2 is toString
 	toString throws: 0 exceptions
 	toString requires: 0 parameters
 	toString has the following modifiers: public
+-------------------------------------------
+Class Name: java.lang.Object
+Class Simple Name: Object
+Immediate Superclass: null
+*******************************************
+java.lang.Object implements 0 interfaces
+*******************************************
+-------------------------------------------
+-------------------------------------------
+*******************************************
+*******************************************
+java.lang.Object declares 0 Fields
+-------------------------------------------
+java.lang.Object has 1 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is java.lang.Object
+-------------------------------------------
+	java.lang.Object requires: 0 parameters
+	java.lang.Object has the following modifiers: public
+-------------------------------------------
+*******************************************
+java.lang.Object declares 12 Methods
+*******************************************
+Method 1 is finalize
+-------------------------------------------
+	finalize return type: void
+	finalize throws: 1 exceptions
+		java.lang.Throwable
+	finalize requires: 0 parameters
+	finalize has the following modifiers: protected
+-------------------------------------------
+Method 2 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 2 parameters
+		arg0	long
+		arg1	int
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 3 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 1 parameters
+		arg0	long
+	wait has the following modifiers: public final native
+-------------------------------------------
+Method 4 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 0 parameters
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 5 is equals
+-------------------------------------------
+	equals return type: boolean
+	equals throws: 0 exceptions
+	equals requires: 1 parameters
+		arg0	java.lang.Object
+	equals has the following modifiers: public
+-------------------------------------------
+Method 6 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 7 is hashCode
+-------------------------------------------
+	hashCode return type: int
+	hashCode throws: 0 exceptions
+	hashCode requires: 0 parameters
+	hashCode has the following modifiers: public native
+-------------------------------------------
+Method 8 is getClass
+-------------------------------------------
+	getClass return type: java.lang.Class
+	getClass throws: 0 exceptions
+	getClass requires: 0 parameters
+	getClass has the following modifiers: public final native
+-------------------------------------------
+Method 9 is clone
+-------------------------------------------
+	clone return type: java.lang.Object
+	clone throws: 1 exceptions
+		java.lang.CloneNotSupportedException
+	clone requires: 0 parameters
+	clone has the following modifiers: protected native
+-------------------------------------------
+Method 10 is registerNatives
+-------------------------------------------
+	registerNatives return type: void
+	registerNatives throws: 0 exceptions
+	registerNatives requires: 0 parameters
+	registerNatives has the following modifiers: private static native
+-------------------------------------------
+Method 11 is notify
+-------------------------------------------
+	notify return type: void
+	notify throws: 0 exceptions
+	notify requires: 0 parameters
+	notify has the following modifiers: public final native
+-------------------------------------------
+Method 12 is notifyAll
+-------------------------------------------
+	notifyAll return type: void
+	notifyAll throws: 0 exceptions
+	notifyAll requires: 0 parameters
+	notifyAll has the following modifiers: public final native
+-------------------------------------------
+======================================================
+======================================================
+Running Test: ClassD
+Class Name: introspection.ClassD
+Class Simple Name: ClassD
+Immediate Superclass: java.lang.Object
+*******************************************
+introspection.ClassD implements 0 interfaces
+*******************************************
+-------------------------------------------
+-------------------------------------------
+*******************************************
+*******************************************
+introspection.ClassD declares 4 Fields
+-------------------------------------------
+Field 1
+	Name: val
+Class Name: introspection.ClassA
+Class Simple Name: ClassA
+Immediate Superclass: java.lang.Object
+*******************************************
+introspection.ClassA implements 2 interfaces
+*******************************************
+-------------------------------------------
+	Interface  1 java.io.Serializable
+	Interface  2 java.lang.Runnable
+-------------------------------------------
+*******************************************
+*******************************************
+introspection.ClassA declares 3 Fields
+-------------------------------------------
+Field 1
+	Name: val
+	Type: java.lang.Integer
+	Value: 17
+	Modifiers: public final
+-------------------------------------------
+Field 2
+	Name: val2
+	Type: java.lang.Double
+	Value: 0.2
+	Modifiers: public final
+-------------------------------------------
+Field 3
+	Name: val3
+	Type: java.lang.Boolean
+	Value: true
+	Modifiers: public final
+-------------------------------------------
+introspection.ClassA has 2 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is introspection.ClassA
+-------------------------------------------
+	introspection.ClassA requires: 0 parameters
+	introspection.ClassA has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 2 is introspection.ClassA
+-------------------------------------------
+	introspection.ClassA requires: 1 parameters
+		arg0	int
+	introspection.ClassA has the following modifiers: public
+-------------------------------------------
+*******************************************
+introspection.ClassA declares 5 Methods
+*******************************************
+Method 1 is getVal
+-------------------------------------------
+	getVal return type: int
+	getVal throws: 0 exceptions
+	getVal requires: 0 parameters
+	getVal has the following modifiers: public
+-------------------------------------------
+Method 2 is printSomething
+-------------------------------------------
+	printSomething return type: void
+	printSomething throws: 0 exceptions
+	printSomething requires: 0 parameters
+	printSomething has the following modifiers: private
+-------------------------------------------
+Method 3 is run
+-------------------------------------------
+	run return type: void
+	run throws: 0 exceptions
+	run requires: 0 parameters
+	run has the following modifiers: public
+-------------------------------------------
+Method 4 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 5 is setVal
+-------------------------------------------
+	setVal return type: void
+	setVal throws: 1 exceptions
+		java.lang.Exception
+	setVal requires: 1 parameters
+		arg0	int
+	setVal has the following modifiers: public
+-------------------------------------------
+Class Name: java.lang.Object
+Class Simple Name: Object
+Immediate Superclass: null
+*******************************************
+java.lang.Object implements 0 interfaces
+*******************************************
+-------------------------------------------
+-------------------------------------------
+*******************************************
+*******************************************
+java.lang.Object declares 0 Fields
+-------------------------------------------
+java.lang.Object has 1 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is java.lang.Object
+-------------------------------------------
+	java.lang.Object requires: 0 parameters
+	java.lang.Object has the following modifiers: public
+-------------------------------------------
+*******************************************
+java.lang.Object declares 12 Methods
+*******************************************
+Method 1 is finalize
+-------------------------------------------
+	finalize return type: void
+	finalize throws: 1 exceptions
+		java.lang.Throwable
+	finalize requires: 0 parameters
+	finalize has the following modifiers: protected
+-------------------------------------------
+Method 2 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 2 parameters
+		arg0	long
+		arg1	int
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 3 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 1 parameters
+		arg0	long
+	wait has the following modifiers: public final native
+-------------------------------------------
+Method 4 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 0 parameters
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 5 is equals
+-------------------------------------------
+	equals return type: boolean
+	equals throws: 0 exceptions
+	equals requires: 1 parameters
+		arg0	java.lang.Object
+	equals has the following modifiers: public
+-------------------------------------------
+Method 6 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 7 is hashCode
+-------------------------------------------
+	hashCode return type: int
+	hashCode throws: 0 exceptions
+	hashCode requires: 0 parameters
+	hashCode has the following modifiers: public native
+-------------------------------------------
+Method 8 is getClass
+-------------------------------------------
+	getClass return type: java.lang.Class
+	getClass throws: 0 exceptions
+	getClass requires: 0 parameters
+	getClass has the following modifiers: public final native
+-------------------------------------------
+Method 9 is clone
+-------------------------------------------
+	clone return type: java.lang.Object
+	clone throws: 1 exceptions
+		java.lang.CloneNotSupportedException
+	clone requires: 0 parameters
+	clone has the following modifiers: protected native
+-------------------------------------------
+Method 10 is registerNatives
+-------------------------------------------
+	registerNatives return type: void
+	registerNatives throws: 0 exceptions
+	registerNatives requires: 0 parameters
+	registerNatives has the following modifiers: private static native
+-------------------------------------------
+Method 11 is notify
+-------------------------------------------
+	notify return type: void
+	notify throws: 0 exceptions
+	notify requires: 0 parameters
+	notify has the following modifiers: public final native
+-------------------------------------------
+Method 12 is notifyAll
+-------------------------------------------
+	notifyAll return type: void
+	notifyAll throws: 0 exceptions
+	notifyAll requires: 0 parameters
+	notifyAll has the following modifiers: public final native
+-------------------------------------------
+	Type: class introspection.ClassA	Value: ClassA
+-------------------------------------------
+Field 2
+	Name: val2
+	Type: class introspection.ClassA	Value: null
+-------------------------------------------
+Field 3
+	Name: val3
+	Type: java.lang.Integer
+	Value: 34
+	Modifiers: public final
+-------------------------------------------
+Field 4
+	Name: vallarray
+	Type: class introspection.ClassA
+	Length: 10
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+		Value: null
+	Modifiers: public abstract final
+-------------------------------------------
+introspection.ClassD has 2 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is introspection.ClassD
+-------------------------------------------
+	introspection.ClassD requires: 0 parameters
+	introspection.ClassD has the following modifiers: public
+-------------------------------------------
+-------------------------------------------
+Constructor 2 is introspection.ClassD
+-------------------------------------------
+	introspection.ClassD requires: 1 parameters
+		arg0	int
+	introspection.ClassD has the following modifiers: public
+-------------------------------------------
+*******************************************
+introspection.ClassD declares 2 Methods
+*******************************************
+Method 1 is getVal3
+-------------------------------------------
+	getVal3 return type: int
+	getVal3 throws: 0 exceptions
+	getVal3 requires: 0 parameters
+	getVal3 has the following modifiers: public
+-------------------------------------------
+Method 2 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Class Name: java.lang.Object
+Class Simple Name: Object
+Immediate Superclass: null
+*******************************************
+java.lang.Object implements 0 interfaces
+*******************************************
+-------------------------------------------
+-------------------------------------------
+*******************************************
+*******************************************
+java.lang.Object declares 0 Fields
+-------------------------------------------
+java.lang.Object has 1 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is java.lang.Object
+-------------------------------------------
+	java.lang.Object requires: 0 parameters
+	java.lang.Object has the following modifiers: public
+-------------------------------------------
+*******************************************
+java.lang.Object declares 12 Methods
+*******************************************
+Method 1 is finalize
+-------------------------------------------
+	finalize return type: void
+	finalize throws: 1 exceptions
+		java.lang.Throwable
+	finalize requires: 0 parameters
+	finalize has the following modifiers: protected
+-------------------------------------------
+Method 2 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 2 parameters
+		arg0	long
+		arg1	int
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 3 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 1 parameters
+		arg0	long
+	wait has the following modifiers: public final native
+-------------------------------------------
+Method 4 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 0 parameters
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 5 is equals
+-------------------------------------------
+	equals return type: boolean
+	equals throws: 0 exceptions
+	equals requires: 1 parameters
+		arg0	java.lang.Object
+	equals has the following modifiers: public
+-------------------------------------------
+Method 6 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 7 is hashCode
+-------------------------------------------
+	hashCode return type: int
+	hashCode throws: 0 exceptions
+	hashCode requires: 0 parameters
+	hashCode has the following modifiers: public native
+-------------------------------------------
+Method 8 is getClass
+-------------------------------------------
+	getClass return type: java.lang.Class
+	getClass throws: 0 exceptions
+	getClass requires: 0 parameters
+	getClass has the following modifiers: public final native
+-------------------------------------------
+Method 9 is clone
+-------------------------------------------
+	clone return type: java.lang.Object
+	clone throws: 1 exceptions
+		java.lang.CloneNotSupportedException
+	clone requires: 0 parameters
+	clone has the following modifiers: protected native
+-------------------------------------------
+Method 10 is registerNatives
+-------------------------------------------
+	registerNatives return type: void
+	registerNatives throws: 0 exceptions
+	registerNatives requires: 0 parameters
+	registerNatives has the following modifiers: private static native
+-------------------------------------------
+Method 11 is notify
+-------------------------------------------
+	notify return type: void
+	notify throws: 0 exceptions
+	notify requires: 0 parameters
+	notify has the following modifiers: public final native
+-------------------------------------------
+Method 12 is notifyAll
+-------------------------------------------
+	notifyAll return type: void
+	notifyAll throws: 0 exceptions
+	notifyAll requires: 0 parameters
+	notifyAll has the following modifiers: public final native
 -------------------------------------------
 ======================================================
 ======================================================
 Running Test: [Lintrospection.ClassB;@33909752
+Class Name: java.lang.Object
+Class Simple Name: Object
+Immediate Superclass: null
+*******************************************
+java.lang.Object implements 0 interfaces
+*******************************************
+-------------------------------------------
+-------------------------------------------
+*******************************************
+*******************************************
+java.lang.Object declares 0 Fields
+-------------------------------------------
+java.lang.Object has 1 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is java.lang.Object
+-------------------------------------------
+	java.lang.Object requires: 0 parameters
+	java.lang.Object has the following modifiers: public
+-------------------------------------------
+*******************************************
+java.lang.Object declares 12 Methods
+*******************************************
+Method 1 is finalize
+-------------------------------------------
+	finalize return type: void
+	finalize throws: 1 exceptions
+		java.lang.Throwable
+	finalize requires: 0 parameters
+	finalize has the following modifiers: protected
+-------------------------------------------
+Method 2 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 2 parameters
+		arg0	long
+		arg1	int
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 3 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 1 parameters
+		arg0	long
+	wait has the following modifiers: public final native
+-------------------------------------------
+Method 4 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 0 parameters
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 5 is equals
+-------------------------------------------
+	equals return type: boolean
+	equals throws: 0 exceptions
+	equals requires: 1 parameters
+		arg0	java.lang.Object
+	equals has the following modifiers: public
+-------------------------------------------
+Method 6 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 7 is hashCode
+-------------------------------------------
+	hashCode return type: int
+	hashCode throws: 0 exceptions
+	hashCode requires: 0 parameters
+	hashCode has the following modifiers: public native
+-------------------------------------------
+Method 8 is getClass
+-------------------------------------------
+	getClass return type: java.lang.Class
+	getClass throws: 0 exceptions
+	getClass requires: 0 parameters
+	getClass has the following modifiers: public final native
+-------------------------------------------
+Method 9 is clone
+-------------------------------------------
+	clone return type: java.lang.Object
+	clone throws: 1 exceptions
+		java.lang.CloneNotSupportedException
+	clone requires: 0 parameters
+	clone has the following modifiers: protected native
+-------------------------------------------
+Method 10 is registerNatives
+-------------------------------------------
+	registerNatives return type: void
+	registerNatives throws: 0 exceptions
+	registerNatives requires: 0 parameters
+	registerNatives has the following modifiers: private static native
+-------------------------------------------
+Method 11 is notify
+-------------------------------------------
+	notify return type: void
+	notify throws: 0 exceptions
+	notify requires: 0 parameters
+	notify has the following modifiers: public final native
+-------------------------------------------
+Method 12 is notifyAll
+-------------------------------------------
+	notifyAll return type: void
+	notifyAll throws: 0 exceptions
+	notifyAll requires: 0 parameters
+	notifyAll has the following modifiers: public final native
+-------------------------------------------
+Class Name: [Lintrospection.ClassB;
+Class Simple Name: ClassB[]
+Immediate Superclass: java.lang.Object
+*******************************************
+[Lintrospection.ClassB; implements 2 interfaces
+*******************************************
+-------------------------------------------
+	Interface  1 java.lang.Cloneable
+	Interface  2 java.io.Serializable
+-------------------------------------------
+*******************************************
+*******************************************
+[Lintrospection.ClassB; declares 0 Fields
+-------------------------------------------
+[Lintrospection.ClassB; has 0 constructors 
+*******************************************
+*******************************************
+[Lintrospection.ClassB; declares 0 Methods
+*******************************************
 ======================================================
 ======================================================
 Running Test: [[Lintrospection.ClassB;@3d4eac69
+Class Name: [[Lintrospection.ClassB;
+Class Simple Name: ClassB[][]
+Immediate Superclass: java.lang.Object
+*******************************************
+[[Lintrospection.ClassB; implements 2 interfaces
+*******************************************
+-------------------------------------------
+	Interface  1 java.lang.Cloneable
+	Interface  2 java.io.Serializable
+-------------------------------------------
+*******************************************
+*******************************************
+[[Lintrospection.ClassB; declares 0 Fields
+-------------------------------------------
+[[Lintrospection.ClassB; has 0 constructors 
+*******************************************
+*******************************************
+[[Lintrospection.ClassB; declares 0 Methods
+*******************************************
+Class Name: java.lang.Object
+Class Simple Name: Object
+Immediate Superclass: null
+*******************************************
+java.lang.Object implements 0 interfaces
+*******************************************
+-------------------------------------------
+-------------------------------------------
+*******************************************
+*******************************************
+java.lang.Object declares 0 Fields
+-------------------------------------------
+java.lang.Object has 1 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is java.lang.Object
+-------------------------------------------
+	java.lang.Object requires: 0 parameters
+	java.lang.Object has the following modifiers: public
+-------------------------------------------
+*******************************************
+java.lang.Object declares 12 Methods
+*******************************************
+Method 1 is finalize
+-------------------------------------------
+	finalize return type: void
+	finalize throws: 1 exceptions
+		java.lang.Throwable
+	finalize requires: 0 parameters
+	finalize has the following modifiers: protected
+-------------------------------------------
+Method 2 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 2 parameters
+		arg0	long
+		arg1	int
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 3 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 1 parameters
+		arg0	long
+	wait has the following modifiers: public final native
+-------------------------------------------
+Method 4 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 0 parameters
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 5 is equals
+-------------------------------------------
+	equals return type: boolean
+	equals throws: 0 exceptions
+	equals requires: 1 parameters
+		arg0	java.lang.Object
+	equals has the following modifiers: public
+-------------------------------------------
+Method 6 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 7 is hashCode
+-------------------------------------------
+	hashCode return type: int
+	hashCode throws: 0 exceptions
+	hashCode requires: 0 parameters
+	hashCode has the following modifiers: public native
+-------------------------------------------
+Method 8 is getClass
+-------------------------------------------
+	getClass return type: java.lang.Class
+	getClass throws: 0 exceptions
+	getClass requires: 0 parameters
+	getClass has the following modifiers: public final native
+-------------------------------------------
+Method 9 is clone
+-------------------------------------------
+	clone return type: java.lang.Object
+	clone throws: 1 exceptions
+		java.lang.CloneNotSupportedException
+	clone requires: 0 parameters
+	clone has the following modifiers: protected native
+-------------------------------------------
+Method 10 is registerNatives
+-------------------------------------------
+	registerNatives return type: void
+	registerNatives throws: 0 exceptions
+	registerNatives requires: 0 parameters
+	registerNatives has the following modifiers: private static native
+-------------------------------------------
+Method 11 is notify
+-------------------------------------------
+	notify return type: void
+	notify throws: 0 exceptions
+	notify requires: 0 parameters
+	notify has the following modifiers: public final native
+-------------------------------------------
+Method 12 is notifyAll
+-------------------------------------------
+	notifyAll return type: void
+	notifyAll throws: 0 exceptions
+	notifyAll requires: 0 parameters
+	notifyAll has the following modifiers: public final native
+-------------------------------------------
 ======================================================
 ======================================================
 Running Test: Test String
@@ -421,8 +3068,19 @@ java.lang.String declares 5 Fields
 -------------------------------------------
 Field 1
 	Name: value
-	Type: char[][]
-	Length: 0
+	Type: char
+	Length: 11
+	Value: T
+	Value: e
+	Value: s
+	Value: t
+	Value:  
+	Value: S
+	Value: t
+	Value: r
+	Value: i
+	Value: n
+	Value: g
 	Modifiers: public abstract final
 -------------------------------------------
 Field 2
@@ -439,13 +3097,192 @@ Field 3
 -------------------------------------------
 Field 4
 	Name: serialPersistentFields
-	Type: java.io.ObjectStreamField[][]
+	Type: class java.io.ObjectStreamField
 	Length: 0
 	Modifiers: public abstract final
 -------------------------------------------
 Field 5
 	Name: CASE_INSENSITIVE_ORDER
-	Type: interface java.util.Comparator	Value: class java.lang.reflect.Field
+Class Name: java.lang.String$CaseInsensitiveComparator
+Class Simple Name: CaseInsensitiveComparator
+Immediate Superclass: java.lang.Object
+*******************************************
+java.lang.String$CaseInsensitiveComparator implements 2 interfaces
+*******************************************
+-------------------------------------------
+	Interface  1 java.util.Comparator
+	Interface  2 java.io.Serializable
+-------------------------------------------
+*******************************************
+*******************************************
+java.lang.String$CaseInsensitiveComparator declares 1 Fields
+-------------------------------------------
+Field 1
+	Name: serialVersionUID
+	Type: java.lang.Long
+	Value: 8575799808933029326
+	Modifiers: public final
+-------------------------------------------
+java.lang.String$CaseInsensitiveComparator has 2 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is java.lang.String$CaseInsensitiveComparator
+-------------------------------------------
+	java.lang.String$CaseInsensitiveComparator requires: 1 parameters
+		arg0	java.lang.String$1
+	java.lang.String$CaseInsensitiveComparator has the following modifiers: 
+-------------------------------------------
+-------------------------------------------
+Constructor 2 is java.lang.String$CaseInsensitiveComparator
+-------------------------------------------
+	java.lang.String$CaseInsensitiveComparator requires: 0 parameters
+	java.lang.String$CaseInsensitiveComparator has the following modifiers: private
+-------------------------------------------
+*******************************************
+java.lang.String$CaseInsensitiveComparator declares 3 Methods
+*******************************************
+Method 1 is compare
+-------------------------------------------
+	compare return type: int
+	compare throws: 0 exceptions
+	compare requires: 2 parameters
+		arg0	java.lang.Object
+		arg1	java.lang.Object
+	compare has the following modifiers: public volatile
+-------------------------------------------
+Method 2 is compare
+-------------------------------------------
+	compare return type: int
+	compare throws: 0 exceptions
+	compare requires: 2 parameters
+		arg0	java.lang.String
+		arg1	java.lang.String
+	compare has the following modifiers: public
+-------------------------------------------
+Method 3 is readResolve
+-------------------------------------------
+	readResolve return type: java.lang.Object
+	readResolve throws: 0 exceptions
+	readResolve requires: 0 parameters
+	readResolve has the following modifiers: private
+-------------------------------------------
+Class Name: java.lang.Object
+Class Simple Name: Object
+Immediate Superclass: null
+*******************************************
+java.lang.Object implements 0 interfaces
+*******************************************
+-------------------------------------------
+-------------------------------------------
+*******************************************
+*******************************************
+java.lang.Object declares 0 Fields
+-------------------------------------------
+java.lang.Object has 1 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is java.lang.Object
+-------------------------------------------
+	java.lang.Object requires: 0 parameters
+	java.lang.Object has the following modifiers: public
+-------------------------------------------
+*******************************************
+java.lang.Object declares 12 Methods
+*******************************************
+Method 1 is finalize
+-------------------------------------------
+	finalize return type: void
+	finalize throws: 1 exceptions
+		java.lang.Throwable
+	finalize requires: 0 parameters
+	finalize has the following modifiers: protected
+-------------------------------------------
+Method 2 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 2 parameters
+		arg0	long
+		arg1	int
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 3 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 1 parameters
+		arg0	long
+	wait has the following modifiers: public final native
+-------------------------------------------
+Method 4 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 0 parameters
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 5 is equals
+-------------------------------------------
+	equals return type: boolean
+	equals throws: 0 exceptions
+	equals requires: 1 parameters
+		arg0	java.lang.Object
+	equals has the following modifiers: public
+-------------------------------------------
+Method 6 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 7 is hashCode
+-------------------------------------------
+	hashCode return type: int
+	hashCode throws: 0 exceptions
+	hashCode requires: 0 parameters
+	hashCode has the following modifiers: public native
+-------------------------------------------
+Method 8 is getClass
+-------------------------------------------
+	getClass return type: java.lang.Class
+	getClass throws: 0 exceptions
+	getClass requires: 0 parameters
+	getClass has the following modifiers: public final native
+-------------------------------------------
+Method 9 is clone
+-------------------------------------------
+	clone return type: java.lang.Object
+	clone throws: 1 exceptions
+		java.lang.CloneNotSupportedException
+	clone requires: 0 parameters
+	clone has the following modifiers: protected native
+-------------------------------------------
+Method 10 is registerNatives
+-------------------------------------------
+	registerNatives return type: void
+	registerNatives throws: 0 exceptions
+	registerNatives requires: 0 parameters
+	registerNatives has the following modifiers: private static native
+-------------------------------------------
+Method 11 is notify
+-------------------------------------------
+	notify return type: void
+	notify throws: 0 exceptions
+	notify requires: 0 parameters
+	notify has the following modifiers: public final native
+-------------------------------------------
+Method 12 is notifyAll
+-------------------------------------------
+	notifyAll return type: void
+	notifyAll throws: 0 exceptions
+	notifyAll requires: 0 parameters
+	notifyAll has the following modifiers: public final native
+-------------------------------------------
+	Type: interface java.util.Comparator	Value: java.lang.String$CaseInsensitiveComparator@232204a1
 -------------------------------------------
 java.lang.String has 16 constructors 
 *******************************************
@@ -1250,8 +4087,124 @@ Method 77 is intern
 	intern requires: 0 parameters
 	intern has the following modifiers: public native
 -------------------------------------------
+Class Name: java.lang.Object
+Class Simple Name: Object
+Immediate Superclass: null
+*******************************************
+java.lang.Object implements 0 interfaces
+*******************************************
+-------------------------------------------
+-------------------------------------------
+*******************************************
+*******************************************
+java.lang.Object declares 0 Fields
+-------------------------------------------
+java.lang.Object has 1 constructors 
+*******************************************
+-------------------------------------------
+Constructor 1 is java.lang.Object
+-------------------------------------------
+	java.lang.Object requires: 0 parameters
+	java.lang.Object has the following modifiers: public
+-------------------------------------------
+*******************************************
+java.lang.Object declares 12 Methods
+*******************************************
+Method 1 is finalize
+-------------------------------------------
+	finalize return type: void
+	finalize throws: 1 exceptions
+		java.lang.Throwable
+	finalize requires: 0 parameters
+	finalize has the following modifiers: protected
+-------------------------------------------
+Method 2 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 2 parameters
+		arg0	long
+		arg1	int
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 3 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 1 parameters
+		arg0	long
+	wait has the following modifiers: public final native
+-------------------------------------------
+Method 4 is wait
+-------------------------------------------
+	wait return type: void
+	wait throws: 1 exceptions
+		java.lang.InterruptedException
+	wait requires: 0 parameters
+	wait has the following modifiers: public final
+-------------------------------------------
+Method 5 is equals
+-------------------------------------------
+	equals return type: boolean
+	equals throws: 0 exceptions
+	equals requires: 1 parameters
+		arg0	java.lang.Object
+	equals has the following modifiers: public
+-------------------------------------------
+Method 6 is toString
+-------------------------------------------
+	toString return type: java.lang.String
+	toString throws: 0 exceptions
+	toString requires: 0 parameters
+	toString has the following modifiers: public
+-------------------------------------------
+Method 7 is hashCode
+-------------------------------------------
+	hashCode return type: int
+	hashCode throws: 0 exceptions
+	hashCode requires: 0 parameters
+	hashCode has the following modifiers: public native
+-------------------------------------------
+Method 8 is getClass
+-------------------------------------------
+	getClass return type: java.lang.Class
+	getClass throws: 0 exceptions
+	getClass requires: 0 parameters
+	getClass has the following modifiers: public final native
+-------------------------------------------
+Method 9 is clone
+-------------------------------------------
+	clone return type: java.lang.Object
+	clone throws: 1 exceptions
+		java.lang.CloneNotSupportedException
+	clone requires: 0 parameters
+	clone has the following modifiers: protected native
+-------------------------------------------
+Method 10 is registerNatives
+-------------------------------------------
+	registerNatives return type: void
+	registerNatives throws: 0 exceptions
+	registerNatives requires: 0 parameters
+	registerNatives has the following modifiers: private static native
+-------------------------------------------
+Method 11 is notify
+-------------------------------------------
+	notify return type: void
+	notify throws: 0 exceptions
+	notify requires: 0 parameters
+	notify has the following modifiers: public final native
+-------------------------------------------
+Method 12 is notifyAll
+-------------------------------------------
+	notifyAll return type: void
+	notifyAll throws: 0 exceptions
+	notifyAll requires: 0 parameters
+	notifyAll has the following modifiers: public final native
+-------------------------------------------
 ======================================================
-]777;notify;Command completed;java introspection.Asst2TestDriver introspection.Inspector true]0;msimiste@zone18-ed:~/Desktop/CPSC501/Assignment2/A2/src]7;file://zone18-ed/home/ugd/msimiste/Desktop/CPSC501/Assignment2/A2/src[msimiste@zone18-ed src]$ exit
+]777;notify;Command completed;java introspection.Asst2TestDriver introspection.Inspector true]0;msimiste@zone07-wc:~/Desktop/CPSC501/Assignment2/A2/src]7;file://zone07-wc/home/ugd/msimiste/Desktop/CPSC501/Assignment2/A2/src[msimiste@zone07-wc src]$ exit
 exit
 
-Script done on Mon 31 Oct 2016 04:18:20 PM MDT
+Script done on Mon 31 Oct 2016 09:15:47 PM MDT

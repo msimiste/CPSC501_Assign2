@@ -1,3 +1,9 @@
+commit 7b093250b84f45cc00863f5671810483b8c9fe3a
+Author: Mike Simister <mikesimister@shaw.ca>
+Date:   Mon Oct 31 21:12:17 2016 -0600
+
+    added unit tests, refactoring, changed methods such that arrays, recursion is functional
+
 commit 5fc07f8d31c6e7126c932d97a6e53653b79d4eac
 Author: msimiste <mikesimister@shaw.ca>
 Date:   Mon Oct 31 15:20:50 2016 -0600
